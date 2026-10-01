@@ -1,0 +1,269 @@
+{
+ "rubric": {
+  "criteria": [
+   [
+    "Opening",
+    "Name, company, MC, reference; purpose in ~15 seconds"
+   ],
+   [
+    "Facts",
+    "Asks and confirms the right details before money or decisions"
+   ],
+   [
+    "Numbers",
+    "Uses break-even, target, market; math correct; totals all-in"
+   ],
+   [
+    "Judgement",
+    "Safety, legality, fraud checks, carrier-side decisions"
+   ],
+   [
+    "Close",
+    "Clear next step, confirms in writing, polite either way"
+   ]
+  ],
+  "scale": "0 = missing, 1 = partly, 2 = fully; total /10; 7+ pass; 9–10 ready for real calls",
+  "automaticFail": [
+   "Booking below the carrier minimum without asking",
+   "Pushing a driver past hours-of-service limits",
+   "Ignoring two or more fraud red flags"
+  ]
+ },
+ "roleplays": [
+  {
+   "id": "M02-EQ",
+   "module": "m02",
+   "title": "Equipment questions on a broker call",
+   "aiRole": "Freight broker (carrier sales rep)",
+   "briefing": "A broker posted a 53 ft van load Chicago → Dallas, 42,000 lb, “VA preferred”. Truck 12 is a dry van WITHOUT air-ride. Ask the right equipment questions (drill 4) before talking rate.",
+   "hidden": "The load is electronics on 20 pallets; air-ride is REQUIRED by the shipper, not just preferred; trailer must be 53 ft with logistics straps. If the learner never asks whether air-ride is required, let them proceed and later reveal the shipper will reject a non-air-ride trailer.",
+   "success": [
+    "Asks if air-ride is required or preferred",
+    "Asks commodity, pallets, weight, dimensions, straps/load bars",
+    "Declines politely when equipment does not match"
+   ]
+  },
+  {
+   "id": "M03-LANE",
+   "module": "m03",
+   "title": "Lane briefing to the driver",
+   "aiRole": "Driver Carlos",
+   "briefing": "Brief Carlos on Load 1 (Chicago, IL → Charlotte, NC): route corridor, time zones (pickup CT, delivery ET), fuel/parking stops (drill 5).",
+   "hidden": "Carlos has never driven into Charlotte and worries about the time change and truck parking near the receiver. He gets confused if the dispatcher does not say the time zone.",
+   "success": [
+    "States route corridor (e.g., I-65 → I-64 → I-75 → I-40/I-26, or I-80/I-90 → I-77) clearly",
+    "Says time zones for both appointments",
+    "Plans fuel/parking and checks hours"
+   ]
+  },
+  {
+   "id": "M04-UNSAFE",
+   "module": "m04",
+   "title": "Refusing an unsafe request",
+   "aiRole": "Freight broker under pressure",
+   "briefing": "The broker wants Load 12 (Plainfield → Charlotte, ~770 mi) delivered Thu 8:00 AM ET after a Wed pickup. Explain politely why it is not legal/feasible and offer an alternative (drill 6).",
+   "hidden": "The broker can move the delivery to Thu 2 PM ET if the learner explains the hours-of-service math professionally; becomes pushy (“other carriers do it”) if the learner is vague.",
+   "success": [
+    "Uses HOS facts (11/14/30-min/10-h) not excuses",
+    "Refuses unsafe/illegal plan without arguing",
+    "Offers a realistic alternative time"
+   ]
+  },
+  {
+   "id": "M05-COI",
+   "module": "m05",
+   "title": "Verifying a COI with the insurance agent",
+   "aiRole": "Insurance agent (producer)",
+   "briefing": "Call Blue Line’s insurance agent to confirm the COI: active auto liability and cargo, limits, scheduled truck, exclusions (drill 7).",
+   "hidden": "Auto liability $1,000,000 active; cargo $100,000 active but with a reefer-breakdown exclusion; scheduled autos list includes Truck 12 VIN ending 4471 but not a newly added trailer. Only reveal details when asked specifically.",
+   "success": [
+    "Identifies self, carrier and MC",
+    "Asks policy status, limits, scheduled units, exclusions",
+    "Records who/when and spells numbers clearly"
+   ]
+  },
+  {
+   "id": "M06-FIRST",
+   "module": "m06",
+   "title": "First 15 seconds of a broker call",
+   "aiRole": "Busy freight broker",
+   "briefing": "Call about Load 1 (LL-448210, Chicago → Charlotte, Wed). Deliver the opening in 15 seconds, then get the facts before the rate (drill 8).",
+   "hidden": "Load is still available; commodity canned goods, 42,000 lb, 24 pallets, pickup Wed 10 AM–2 PM CT, delivery Thu FCFS 8–4 ET. Broker interrupts if the opening is long or missing the reference number.",
+   "success": [
+    "Name, company, MC, reference ID, lane, day in ~15 s",
+    "Facts before rate",
+    "Polite and concise"
+   ]
+  },
+  {
+   "id": "M07-PITCH",
+   "module": "m07",
+   "title": "Pitching a plan to the carrier",
+   "aiRole": "Carrier owner Mike",
+   "briefing": "Pitch Plan C (Bolingbrook → Atlanta $1,750 + Atlanta → Columbus $1,700) to Mike using numbers (drill 9).",
+   "hidden": "Mike first asks why you accepted a load below break-even; he approves only if the learner explains the two-load trip average ($2.62), per-day revenue, hours and end location.",
+   "success": [
+    "States load, money, comparison, reason, question",
+    "Correct math ($3,450 / 1,317 mi = $2.62)",
+    "Honest about the first leg being under break-even"
+   ]
+  },
+  {
+   "id": "M08-RP1",
+   "module": "m08",
+   "title": "Negotiation: posted load with room to push",
+   "aiRole": "Freight broker",
+   "briefing": "Load 1 Chicago → Charlotte posted $2,050; 760 loaded + 40 DH. Practice lane range $2.45–$2.85 per loaded mile. Target $2,160; walk-away $2,072.",
+   "hidden": "Broker budget up to $2,200 if pushed with reasons; starts by saying “$2,050 is all I have”. Accepts ~$2,150–2,175 after two counters.",
+   "success": [
+    "Facts before rate",
+    "Anchor with a reason",
+    "Shrinking steps; stays ≥ walk-away",
+    "Confirms all-in and accessorials"
+   ]
+  },
+  {
+   "id": "M08-RP2",
+   "module": "m08",
+   "title": "Negotiation: broker calls on your posted truck",
+   "aiRole": "Freight broker",
+   "briefing": "Broker calls about Truck 12 posted in Joliet: Joliet → Nashville, 470 loaded + 15 DH, offers $1,150. Target $1,310; walk-away $1,256.",
+   "hidden": "Pickup today 2 PM; broker can go to $1,325 max; mentions “lots of trucks around Joliet” as pressure.",
+   "success": [
+    "Gets details first",
+    "Counters near $1,400 with reason",
+    "Does not accept below $1,256"
+   ]
+  },
+  {
+   "id": "M08-RP3",
+   "module": "m08",
+   "title": "Negotiation: rich rate, weak destination",
+   "aiRole": "Freight broker",
+   "briefing": "Load 7 Kankakee → Jacksonville $2,700, 1,085 total miles; reloads out of Jacksonville are thin. Ask $2,930+ or pass.",
+   "hidden": "Broker max $2,850; respects a clear explanation about deadhead out of Florida.",
+   "success": [
+    "Explains reload problem",
+    "Knows walk-away ($2,810 break-even)",
+    "Willing to pass politely"
+   ]
+  },
+  {
+   "id": "M08-RP4",
+   "module": "m08",
+   "title": "Negotiation: detention terms at a slow facility",
+   "aiRole": "Freight broker",
+   "briefing": "Fair rate, but the shipper is known for 4-hour waits. Keep the rate and secure detention after 2 h ($50/h) in writing plus a workable window.",
+   "hidden": "Broker initially offers detention only after 3 hours and requires notice within 30 minutes of free time ending; agrees to 2 hours if asked firmly.",
+   "success": [
+    "Negotiates terms, not just rate",
+    "Confirms notice rules",
+    "Gets it on the rate con"
+   ]
+  },
+  {
+   "id": "SIM-A",
+   "module": "m11",
+   "title": "Simulation A · Broker: reefer load Dallas → Chicago",
+   "aiRole": "Freight broker (Lone Star Cold Chain)",
+   "briefing": "Truck 7 reefer in Dallas. Load c: Dallas → Chicago, 925 + 20, produce 36°F, posted $2,850. Reefer break-even $2.80, target $2.95.",
+   "hidden": "Requires precooled trailer, continuous mode, pulp temps at pickup; broker can go to $2,950; asks if driver is FSMA-trained.",
+   "success": [
+    "Asks setpoint, mode, precool, pulp temps",
+    "Rate math per total mile",
+    "Confirms appointment and detention"
+   ]
+  },
+  {
+   "id": "SIM-B",
+   "module": "m11",
+   "title": "Simulation B · Broker calls about Truck 3",
+   "aiRole": "Freight broker",
+   "briefing": "A broker calls about Truck 3 posted in Atlanta with a short regional load.",
+   "hidden": "Atlanta → Greenville, SC 145 mi, offers $520 ($3.40/mi loaded) for tomorrow 6 AM; actual pickup is a live load with 3-hour average wait and no detention unless asked.",
+   "success": [
+    "Asks facility wait times and detention",
+    "Checks Friday home-time constraint",
+    "Evaluates per total mile and per day"
+   ]
+  },
+  {
+   "id": "SIM-C",
+   "module": "m11",
+   "title": "Simulation C · Driver morning call",
+   "aiRole": "Driver Carlos",
+   "briefing": "Wednesday 6:30 AM CT: Carlos has 11 h driving left and worries about parking near the Atlanta receiver.",
+   "hidden": "He also forgot to accept the tracking link and is unsure whether the appointment is Central or Eastern time.",
+   "success": [
+    "Checks hours and plan",
+    "Gives time zone explicitly",
+    "Solves parking and tracking; supportive tone"
+   ]
+  },
+  {
+   "id": "SIM-D",
+   "module": "m11",
+   "title": "Simulation D · Rate con correction",
+   "aiRole": "Broker’s carrier sales rep",
+   "briefing": "Truck 12’s next rate con shows $1,950 instead of the $2,050 agreed and no detention.",
+   "hidden": "The rep claims $1,950 was agreed; the learner’s call notes say $2,050 with detention after 2 h. Rep corrects if the learner is specific and polite.",
+   "success": [
+    "States exact discrepancies",
+    "Requests corrected rate con before signing",
+    "Stays polite and factual"
+   ]
+  },
+  {
+   "id": "SIM-E",
+   "module": "m11",
+   "title": "Simulation E · Late ETA (drill 12)",
+   "aiRole": "Freight broker",
+   "briefing": "Truck 7 is stuck behind an I-44 closure near Joplin, MO; delivery Thu 2 PM CT at risk.",
+   "hidden": "Closure adds ~2.5 h; receiver can offer a 5 PM CT slot if asked before 2 PM; broker gets angry if told after the appointment.",
+   "success": [
+    "Calls before appointment",
+    "Honest ETA with math",
+    "Requests new slot; follows up in writing"
+   ]
+  },
+  {
+   "id": "SIM-F",
+   "module": "m11",
+   "title": "Simulation F · Detention claim",
+   "aiRole": "Freight broker",
+   "briefing": "Truck 3 has waited 3 hours at a receiver; the broker says “no detention on this one”.",
+   "hidden": "The rate con actually lists detention after 2 h at $50/h with notice required; the learner sent notice 15 minutes before free time ended (if they say so).",
+   "success": [
+    "References rate con terms",
+    "Provides times and notice proof",
+    "Agrees invoice line amount"
+   ]
+  },
+  {
+   "id": "SIM-G",
+   "module": "m11",
+   "title": "Simulation G · Suspicious broker",
+   "aiRole": "Fraudulent “broker” (test)",
+   "briefing": "A “broker” offers Truck 3 a Friday load at $3.40/mile with a new MC and a gmail address.",
+   "hidden": "MC is 3 weeks old, refuses to give office number, pushes to “book in 5 minutes”, asks for the carrier packet by email and the factoring login. The correct outcome is to stop, verify, and decline/report.",
+   "success": [
+    "Spots 2+ red flags",
+    "Does not share documents or logins",
+    "Follows six-step response"
+   ]
+  },
+  {
+   "id": "SIM-H",
+   "module": "m11",
+   "title": "Simulation H · Weekly review with Mike",
+   "aiRole": "Carrier owner Mike",
+   "briefing": "Friday review: explain revenue, rate per total mile, deadhead, problems and next week’s plan.",
+   "hidden": "Mike pushes on Truck 3 running $2.38 (below break-even) and the unpaid $150 detention; he wants a concrete fix.",
+   "success": [
+    "Numbers first (fleet $14,750, $2.64, 10.4%)",
+    "Explains Truck 3 cause",
+    "Proposes concrete next-week changes"
+   ]
+  }
+ ]
+}

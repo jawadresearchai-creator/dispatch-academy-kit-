@@ -1,0 +1,708 @@
+[
+ {
+  "module": "m00-01",
+  "title": "Module 0 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "In one sentence: who does a carrier-side dispatcher work for, and what is their main goal?",
+    "answer": "For a motor carrier . Main goal: keep the carrier’s trucks loaded with profitable, legal freight, and get the loads delivered and paid."
+   },
+   {
+    "n": 2,
+    "question": "Name three things the carrier supplies that you should not buy at the start.",
+    "answer": "Any three of: truck/trailer, operating authority (USDOT/MC), insurance, a load-board subscription or seat, the ELD/tracking system."
+   },
+   {
+    "n": 3,
+    "question": "A friend offers you his DAT username and password “so you can practice.” What do you say, and why?",
+    "answer": "“No, thanks.” Shared logins break platform rules, can be seen as fraud, and every search would be under someone else’s identity. Access should come from a carrier or employer, as your own seat."
+   },
+   {
+    "n": 4,
+    "question": "It is October. An Atlanta, GA broker says “call me back at 2 PM.” What time is that in Pakistan?",
+    "answer": "October = daylight saving time. Atlanta is Eastern: PKT = ET + 9. 2 PM ET = 11 PM PKT ."
+   },
+   {
+    "n": 5,
+    "question": "It is January. A Los Angeles receiver opens at 7 AM. What time is that in Pakistan?",
+    "answer": "January = standard time. Los Angeles is Pacific: PKT = PT + 13. 7 AM PT = 8 PM PKT , same day."
+   },
+   {
+    "n": 6,
+    "question": "Why do small carriers (the 91.5%) need dispatchers?",
+    "answer": "Owners with 10 or fewer trucks often drive themselves or have no office staff. They can’t search, call and do paperwork while driving, and empty days cost them money."
+   },
+   {
+    "n": 7,
+    "question": "True or false: “There is a federal dispatcher license you must get first.” Explain.",
+    "answer": "False. There is no federal dispatcher license. But if your activities are brokerage, you need broker registration."
+   },
+   {
+    "n": 8,
+    "question": "The best-paying load on the board goes to a city where trucks rarely find a next load. Is it automatically the best choice? Why?",
+    "answer": "No. A dead market can mean a long empty drive or a cheap load to get out again. Always consider the next load and the empty miles (Module 7)."
+   },
+   {
+    "n": 9,
+    "question": "What is the most common barrier in Pakistani dispatch job ads, and what is your plan to get past it?",
+    "answer": "6–12 months’ experience. Plan: build portfolio evidence (mock calls, RC review, simulation log), target entry roles, and apply after Module 8."
+   },
+   {
+    "n": 10,
+    "question": "Write a pickup time correctly for your notes: pickup is Thursday 9 AM Central, in summer.",
+    "answer": "“PU Thu 9:00 AM CT (Thu 7:00 PM PKT)” — summer: PKT = CT + 10."
+   }
+  ]
+ },
+ {
+  "module": "m00-01",
+  "title": "Module 1 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "Put these in order: carrier, receiver, broker, shipper. Where does the dispatcher sit?",
+    "answer": "Shipper → broker → carrier → receiver. The dispatcher sits inside the carrier ."
+   },
+   {
+    "n": 2,
+    "question": "Who creates the BOL, and who creates the RC?",
+    "answer": "The shipper creates the BOL. The broker creates the RC."
+   },
+   {
+    "n": 3,
+    "question": "What turns a BOL into a POD?",
+    "answer": "The receiver’s signature (usually with date, count and stamp) at delivery."
+   },
+   {
+    "n": 4,
+    "question": "Load #12354 paid $700 for 240 miles. What is the rate per loaded mile? And the rate per total mile if the truck drove 80 empty miles first?",
+    "answer": "$700 ÷ 240 = $2.92 per loaded mile. $700 ÷ 320 = $2.19 per total mile."
+   },
+   {
+    "n": 5,
+    "question": "Name the three penalties or risks written in the Ship Express RC.",
+    "answer": "MacroPoint tracking required ($150 deduction), POD within 72 h ($150 deduction), no TONU pay if the load is cancelled."
+   },
+   {
+    "n": 6,
+    "question": "Why does the money flow “in the opposite direction and later”? What problem does factoring solve?",
+    "answer": "The broker pays after the job is done and the paperwork arrives, often weeks later. Factoring gives the carrier cash in a day or two, for a fee."
+   },
+   {
+    "n": 7,
+    "question": "Delivery is 12 PM Central in Owensboro. What time is that in Eastern Time? And in Pakistan in February?",
+    "answer": "12 PM CT = 1 PM ET . In February (standard time) PKT = CT + 11, so 11 PM PKT ."
+   },
+   {
+    "n": 8,
+    "question": "Give two reasons to get a photo of the BOL before the driver leaves the shipper.",
+    "answer": "To compare it with the RC (count, weight, address) while problems can still be fixed at the shipper, and to have proof of what was loaded in case of a later dispute."
+   },
+   {
+    "n": 9,
+    "question": "What must you do immediately if a receiver writes “1 pallet damaged” on the POD?",
+    "answer": "Call the broker immediately, inform the carrier, and get photos of the freight and the signed POD. Document everything for a possible claim."
+   },
+   {
+    "n": 10,
+    "question": "Name four activities that turn a “dispatcher” into an unregistered broker.",
+    "answer": "Any four: negotiating directly with shippers; taking pay from a broker or factor; accepting a load before having a truck; allocating a load between carriers; handling broker-to-carrier payments."
+   },
+   {
+    "n": 11,
+    "question": "Who should pay a carrier-side dispatcher?",
+    "answer": "The carrier only , or your employer, which is paid by its carriers."
+   },
+   {
+    "n": 12,
+    "question": "Explain the difference between a driver’s check call and a broker update.",
+    "answer": "A check call is you getting status from the driver (location, loaded, count, ETA). A broker update is you telling the broker that status, proactively."
+   }
+  ]
+ },
+ {
+  "module": "m02",
+  "title": "Module 2 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "What is the difference between a tractor-trailer and a straight truck, and why does it matter for drop-and-hook loads?",
+    "answer": "A tractor-trailer is two units: the tractor can drop one trailer and hook another. A straight truck’s box is on the same frame and can’t be dropped. Drop-and-hook and power-only work need a tractor."
+   },
+   {
+    "n": 2,
+    "question": "The federal gross limit is 80,000 lb. Why can’t a 53′ dry van usually carry 80,000 − 0 lb of cargo? Give the example math.",
+    "answer": "80,000 lb is the gross for the whole vehicle. Example: 80,000 − tractor/fuel/driver 19,000 − trailer 15,000 = 46,000 lb on paper, and axle limits and real loading usually make it less. Ask the carrier for the truck’s max."
+   },
+   {
+    "n": 3,
+    "question": "How many 48″ × 40″ pallets fit in a 53′ van straight? Turned? In a 26′ box truck?",
+    "answer": "26 straight, up to 30 turned (if the inside width and loading allow); about 12 in a 26′ box truck."
+   },
+   {
+    "n": 4,
+    "question": "True or false: “The federal height limit is 13′6″.” Explain.",
+    "answer": "False. There is no federal vehicle height limit. States set limits, mostly 13′6″–14′, and routes can be lower."
+   },
+   {
+    "n": 5,
+    "question": "A 26′ box truck has a GVWR of 25,999 lb. Does the driver need a CDL to haul general freight? What if the GVWR were 33,000 lb?",
+    "answer": "25,999 lb GVWR, no hazmat → usually no CDL . 33,000 lb GVWR → Class B CDL . Length doesn’t decide it."
+   },
+   {
+    "n": 6,
+    "question": "Name four things you ask before booking a box truck to a residential address.",
+    "answer": "Any four: dock or no dock; residential?; liftgate required?; pallet jack?; forklift on site?; heaviest pallet weight vs liftgate capacity; inside dimensions."
+   },
+   {
+    "n": 7,
+    "question": "Explain continuous vs cycle mode, and who decides which is used.",
+    "answer": "Continuous: the unit runs all the time. Cycle/start-stop: it switches off at the setpoint and restarts as needed. The shipper decides; it’s usually on the RC or BOL."
+   },
+   {
+    "n": 8,
+    "question": "What does FDA’s rule say about pre-cooling? What was wrong with the old manual rule?",
+    "answer": "The compartment must be adequately prepared, “including precooling, if necessary.” The old “always 2 hours” rule is not in the regulation. Follow the shipper’s instructions."
+   },
+   {
+    "n": 9,
+    "question": "A 25-ft article on a flatbed, not blocked: minimum number of tiedowns under FMCSA’s general rule?",
+    "answer": "First 10 ft → 2; remaining 15 ft → 2 more (10 + 5) = 4 tiedowns minimum, plus any commodity-specific rules."
+   },
+   {
+    "n": 10,
+    "question": "A machine is 9′10″ tall. Flatbed deck 5′0″, step-deck lower deck 3′4″. What is the loaded height on each, and which could be legal where the limit is 13′6″?",
+    "answer": "Flatbed: 5′0″ + 9′10″ = 14′10″ ✗. Step deck: 3′4″ + 9′10″ = 13′2″ ✓ under 13′6″, if every state and bridge on the route allows it."
+   },
+   {
+    "n": 11,
+    "question": "What do MV, VH, VM and VC mean on DAT today?",
+    "answer": "MV = Moving Van · VH = Van Hotshot · VM = Van w/ Team · VC = Van w/ Curtains."
+   },
+   {
+    "n": 12,
+    "question": "What must be true before you book a placarded hazmat load?",
+    "answer": "The driver has a hazmat endorsement and the carrier is set up for hazmat (registration, insurance, procedures), and the truck can be placarded correctly. Otherwise, don’t book."
+   }
+  ]
+ },
+ {
+  "module": "m03",
+  "title": "Module 3 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "What do odd and even interstate numbers tell you? Where would you expect I-5 and I-95?",
+    "answer": "Odd = north–south, even = east–west. I-5 on the West Coast (lowest odd, far west); I-95 on the East Coast."
+   },
+   {
+    "n": 2,
+    "question": "What does a three-digit interstate starting with an even digit usually mean? With an odd digit?",
+    "answer": "Even first digit: loop or connector around/through a city (I-285). Odd first digit: spur off the main route (I-575)."
+   },
+   {
+    "n": 3,
+    "question": "Name the main interstate(s) for Dallas → Atlanta, and the time zone of each city.",
+    "answer": "I-20 almost all the way. Dallas = Central, Atlanta = Eastern."
+   },
+   {
+    "n": 4,
+    "question": "Which DAT zone would you search for loads going to Texas or Oklahoma?",
+    "answer": "Z7 (AR, LA, OK, TX)."
+   },
+   {
+    "n": 5,
+    "question": "Why is Laredo important to U.S. trucking, and which interstate starts there?",
+    "answer": "It is the busiest U.S.–Mexico land port for freight; cross-border freight flows north on I-35."
+   },
+   {
+    "n": 6,
+    "question": "Give two differences between a truck route and a car route.",
+    "answer": "Any two: truck GPS avoids low bridges and weight limits; trucks are banned from some roads (e.g. NY parkways); hazmat routes; road miles for rates come from truck mileage systems."
+   },
+   {
+    "n": 7,
+    "question": "What is the difference between a freight hub and a “hot market”?",
+    "answer": "A hub produces freight all year (e.g. Chicago, Atlanta). A hot market has more loads than trucks right now, and changes week to week."
+   },
+   {
+    "n": 8,
+    "question": "Delivery is Monday 4:00 PM Eastern in January. What is that in Pakistan time, including the day?",
+    "answer": "January = winter, ET +10: 4 PM ET → 2 AM Tuesday PKT ."
+   },
+   {
+    "n": 9,
+    "question": "Why does Phoenix have the same clock as Los Angeles in summer but not in winter?",
+    "answer": "Arizona (mostly) doesn’t use DST: it stays on MST (UTC−7). In summer California is on PDT (also UTC−7); in winter California is on PST (UTC−8)."
+   },
+   {
+    "n": 10,
+    "question": "Name three states that have two time zones, and one city in each zone for one of them.",
+    "answer": "Any three of FL, IN, KY, MI, TN, KS, NE, ND, SD, TX, ID, OR. E.g. Kentucky: Louisville (ET), Owensboro (CT)."
+   },
+   {
+    "n": 11,
+    "question": "A driver says his logbook shows 3 PM, but the local receiver clock says 4 PM. What is the likely explanation?",
+    "answer": "The log uses the driver’s home-terminal time standard (e.g. Central) while the receiver is in Eastern Time."
+   },
+   {
+    "n": 12,
+    "question": "Which is often the better choice out of Chicago, a slightly better-paying load to Miami or a load to Atlanta, and what question decides it?",
+    "answer": "Often Atlanta, because it is a major hub with many reloads, while Miami can mean empty miles or a cheap load out. The question: “Where will the truck be after this load, and what can it do from there?” (Rates are compared properly in Module 7.)"
+   }
+  ]
+ },
+ {
+  "module": "m04",
+  "title": "Module 4 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "State the 11-hour, 14-hour, 30-minute and 60/70-hour rules in your own words.",
+    "answer": "11 h driving after 10 h off; no driving after the 14th hour on duty; 30-min break after 8 cumulative hours of driving; no driving after 60 h / 7 days or 70 h / 8 days on duty."
+   },
+   {
+    "n": 2,
+    "question": "Does the 14-hour window stop while the driver waits at a dock? Why does that matter?",
+    "answer": "No. Waiting eats the window, so the driver loses driving hours and the next appointment may fail."
+   },
+   {
+    "n": 3,
+    "question": "What counts as the 30-minute break?",
+    "answer": "Any 30 consecutive minutes not driving: off duty, sleeper, on-duty-not-driving (e.g. loading), or a mix."
+   },
+   {
+    "n": 4,
+    "question": "What resets the weekly cycle completely?",
+    "answer": "A 34-hour (or longer) off-duty restart."
+   },
+   {
+    "n": 5,
+    "question": "Describe the sleeper-berth split and one pairing that works.",
+    "answer": "≥ 7 h in the sleeper + ≥ 2 h off duty or sleeper, total ≥ 10 h (e.g. 7/3 or 8/2). Paired correctly, neither period counts against the 14-hour window."
+   },
+   {
+    "n": 6,
+    "question": "What was wrong with “600 legal miles / 10 hr” in the old manual?",
+    "answer": "The law limits hours, not miles, and 600 miles in 10 h requires a 60 mph average: unrealistic without speeding or violations."
+   },
+   {
+    "n": 7,
+    "question": "Which planning speed does this module use, and roughly how many miles is a full solo driving day?",
+    "answer": "50 mph → about 500–550 miles on a full driving day."
+   },
+   {
+    "n": 8,
+    "question": "Name four things an ELD records automatically or displays to the dispatcher.",
+    "answer": "Any four: duty status, driving time, location, engine hours/miles, remaining drive/shift/break/cycle time."
+   },
+   {
+    "n": 9,
+    "question": "What must a driver do if his ELD malfunctions?",
+    "answer": "Note it, notify the carrier in writing within 24 h, reconstruct the current day + previous 7 days, keep paper logs until repaired."
+   },
+   {
+    "n": 10,
+    "question": "Which time zone does a driver’s log use?",
+    "answer": "The time standard of the driver’s home terminal."
+   },
+   {
+    "n": 11,
+    "question": "What is coercion under 49 CFR 390.6, and who can be responsible?",
+    "answer": "Forcing a driver to break safety rules (e.g. HOS). Motor carriers, shippers, receivers and transportation intermediaries (and their agents) can be responsible."
+   },
+   {
+    "n": 12,
+    "question": "An ETA shows arrival 20 minutes before the appointment. What is your decision and what do you say?",
+    "answer": "Only if. Ask the broker for a later window or FCFS; tell the carrier the risk. A 20-minute buffer is not enough."
+   }
+  ]
+ },
+ {
+  "module": "m05",
+  "title": "Module 5 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "What is the difference between a USDOT number, an MC number and authority status?",
+    "answer": "USDOT = identity and safety record; MC = operating authority to haul for hire; status = whether that authority is active today."
+   },
+   {
+    "n": 2,
+    "question": "Did Motus eliminate MC numbers? What did it change?",
+    "answer": "No. Docket numbers are still issued and existing numbers don’t change. Motus added USDOT suffixes for new registrants, Login.gov identity checks, one docket per new authority, and pending-reason displays."
+   },
+   {
+    "n": 3,
+    "question": "Which two FMCSA lookups do you use, and what does each show?",
+    "answer": "SAFER: identity, size, inspections, crashes, rating, operating status. L&I: authority types and statuses, insurance filings, BOC-3."
+   },
+   {
+    "n": 4,
+    "question": "What is the FMCSA minimum liability for a general-freight carrier, and what do brokers usually ask?",
+    "answer": "$750,000 BIPD for general freight; brokers usually want $1,000,000 auto liability and often ≥ $100,000 cargo."
+   },
+   {
+    "n": 5,
+    "question": "Why can a COI be current on paper but not valid?",
+    "answer": "A COI is information only; the policy can be cancelled after printing, or the truck may not be on it. Verify with the agent."
+   },
+   {
+    "n": 6,
+    "question": "What does “scheduled autos” mean for a dispatcher?",
+    "answer": "Only the trucks listed on the policy are covered. The dispatched truck must be on the schedule."
+   },
+   {
+    "n": 7,
+    "question": "What does an NOA tell a broker, and what happens if it is ignored?",
+    "answer": "Pay the factoring company, not the carrier. If ignored, the broker may have to pay twice."
+   },
+   {
+    "n": 8,
+    "question": "Name four things a dispatch agreement should cover.",
+    "answer": "Any four: parties; services; authority to sign; compensation paid by the carrier only; carrier decides on loads; no brokering; payments go directly to carrier or factor; term; confidentiality."
+   },
+   {
+    "n": 9,
+    "question": "Name five document red flags.",
+    "answer": "Any five: names don’t match; expired COI; insured blank; truck not on policy; cargo exclusions; authority inactive; contact mismatch; surprise NOA; bank-change request by email."
+   },
+   {
+    "n": 10,
+    "question": "Why must packets be sent only through verified channels?",
+    "answer": "Packets hold tax IDs and bank details. Fraudsters use them to impersonate carriers and redirect payments."
+   }
+  ]
+ },
+ {
+  "module": "m06",
+  "title": "Module 6 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "Why is a load board posting not a booking?",
+    "answer": "It is only an advertisement. Details and rates can change; the deal is made by phone, email or book-now, and is binding only with a signed rate confirmation."
+   },
+   {
+    "n": 2,
+    "question": "What do DH-O and DH-D mean? What happens if you set DH-O too high?",
+    "answer": "Deadhead to origin / from destination. Too high = more loads, but more unpaid miles and hours."
+   },
+   {
+    "n": 3,
+    "question": "What does a blank destination mean? How would you search the whole Southeast in one go?",
+    "answer": "Anywhere. Use zones: Z3 (and Z2)."
+   },
+   {
+    "n": 4,
+    "question": "What does the “Age” column tell you, and why do fresh loads matter?",
+    "answer": "Time since posted or refreshed. Old loads are often covered; fresh loads get booked quickly."
+   },
+   {
+    "n": 5,
+    "question": "What does DAT’s credit score measure? What is DTP?",
+    "answer": "Creditworthiness from days-to-pay trends, collections, bankruptcies (via Equifax). DTP = average days to pay."
+   },
+   {
+    "n": 6,
+    "question": "A load shows $1,800 for 700 loaded miles; the truck is 50 miles away. What is the rate per total mile?",
+    "answer": "$1,800 ÷ 750 = $2.40 per total mile."
+   },
+   {
+    "n": 7,
+    "question": "Why post a truck as well as searching?",
+    "answer": "Brokers searching trucks (including for unposted freight) can find and call you."
+   },
+   {
+    "n": 8,
+    "question": "What should you do with a truck posting when the truck gets booked?",
+    "answer": "Remove or update it immediately."
+   },
+   {
+    "n": 9,
+    "question": "List the five-filter scan.",
+    "answer": "Can we haul it? Get there? Deliver it? Does it go somewhere good? Is it worth calling (rate, broker)?"
+   },
+   {
+    "n": 10,
+    "question": "Why search the next leg before booking the first load?",
+    "answer": "A good outbound load into a dead market can lose money on the next leg. Knowing the reload options sets its real value."
+   },
+   {
+    "n": 11,
+    "question": "Name three signals Truckstop shows about brokers or loads.",
+    "answer": "Any three: bond backing, RMIS verification, factorable / new / private tags, rate insights, broker ratings."
+   },
+   {
+    "n": 12,
+    "question": "A broker with no credit history posts a rate much higher than others. What do you think, and what do you do?",
+    "answer": "Possible fraud or bait. Verify identity and authority carefully (Module 8), check with the factor, or skip it."
+   }
+  ]
+ },
+ {
+  "module": "m07",
+  "title": "Module 7 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "What is cost per mile? Why do we divide by total miles, not loaded miles?",
+    "answer": "All costs ÷ all miles for a period. Empty miles cost fuel, pay and wear too, so leaving them out makes the truck look cheaper than it is."
+   },
+   {
+    "n": 2,
+    "question": "Name three fixed costs and three variable costs.",
+    "answer": "Fixed: truck payment, trailer payment, insurance, ELD/phone/board seat, permits. Variable: fuel, driver pay per mile, repairs, tyres, tolls."
+   },
+   {
+    "n": 3,
+    "question": "Why does fixed cost per mile fall when the truck runs more miles?",
+    "answer": "The weekly fixed amount is shared across more miles: $1,300 ÷ 2,000 = $0.65, ÷ 3,000 = $0.43."
+   },
+   {
+    "n": 4,
+    "question": "Diesel rises from $5.00 to $6.38. How much does Truck 12’s fuel cost per mile change (6.5 mpg)?",
+    "answer": "$5.00 ÷ 6.5 = $0.77 → $6.38 ÷ 6.5 = $0.98: +21¢ a mile."
+   },
+   {
+    "n": 5,
+    "question": "Write the break-even formula. Why divide by (1 − fee %) instead of adding the fees?",
+    "answer": "Break-even = cost per mile ÷ (1 − fee %). Fees are a percentage of the rate, and the rate is the unknown. Adding the fees to the cost undercounts them."
+   },
+   {
+    "n": 6,
+    "question": "What are Truck 12’s operating cost, break-even and target minimum?",
+    "answer": "$2.36 · $2.59 · $2.70 (practice, diesel $6.38)."
+   },
+   {
+    "n": 7,
+    "question": "Calculate DAT’s fuel surcharge at $6.00 diesel and 6.0 mpg.",
+    "answer": "($6.00 − $1.25) ÷ 6.0 = $0.79 a mile."
+   },
+   {
+    "n": 8,
+    "question": "What is the difference between an all-in rate and linehaul + FSC?",
+    "answer": "All-in = one total that already includes fuel. Linehaul + FSC = base pay plus a separate fuel amount; convert to all-in to compare."
+   },
+   {
+    "n": 9,
+    "question": "What does a rate tool’s low–average–high range show? What minimum data does DAT RateView need to show a lane?",
+    "answer": "The spread of recently reported paid rates (middle 50%) around the average. RateView needs at least 7 records from 3 different companies."
+   },
+   {
+    "n": 10,
+    "question": "Define load-to-truck ratio. Why compare a market with its own history?",
+    "answer": "Load posts ÷ truck posts for one market and equipment type. Levels differ by market and equipment (flatbed runs much higher than van), so “high” only means high compared with that market’s normal."
+   },
+   {
+    "n": 11,
+    "question": "Give two reasons a load with a lower rate per mile can be the better choice.",
+    "answer": "It leads to a strong reload or good end location; it uses fewer days (more per day); it fits the driver’s hours; it avoids a weak market."
+   },
+   {
+    "n": 12,
+    "question": "What two deductions are on the Ship Express rate con, and how much money are they?",
+    "answer": "$150 if tracking is refused or disabled; $150 if POD is not sent within 72 hours. $300 total."
+   }
+  ]
+ },
+ {
+  "module": "m08",
+  "title": "Module 8 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "What is double brokering, and why does the carrier often end up unpaid?",
+    "answer": "Re-selling a load you took as a carrier, often via stolen identities. The real broker pays whoever it contracted with (the fraudster), who never pays your carrier."
+   },
+   {
+    "n": 2,
+    "question": "Name four of the twelve red flags.",
+    "answer": "Any four: rate far above market; brand-new authority; free or lookalike email; cell-only; pressure; hide your identity; new bank details; asks for logins; pickup changes; names don’t match; odd equipment; asks you to pay."
+   },
+   {
+    "n": 3,
+    "question": "Which two FMCSA lookups confirm a broker’s authority and financial security? Which forms should you see?",
+    "answer": "SAFER (entity type BROKER, broker authority active) and L&I (BMC-84 surety bond or BMC-85 trust fund, $75,000, no cancellation)."
+   },
+   {
+    "n": 4,
+    "question": "Under the rule in force since 16 January 2026, what happens when a broker’s security drops below $75,000?",
+    "answer": "The provider notifies FMCSA; FMCSA notifies the broker, who has 7 business days to restore it or show an error; otherwise its authority is suspended."
+   },
+   {
+    "n": 5,
+    "question": "Someone emails claiming to work for a broker you know. How do you verify them?",
+    "answer": "Find the broker’s phone yourself (website, SAFER, board profile), call, and ask for the person by name. Compare the email domain with the website."
+   },
+   {
+    "n": 6,
+    "question": "The BOL at pickup names a different carrier than yours. What do you tell the driver, and what do you do?",
+    "answer": "“Don’t leave yet.” Call the broker on its official number (and the shipper if needed), tell Mike, and move only when it’s resolved in writing."
+   },
+   {
+    "n": 7,
+    "question": "Name three places FMCSA says to report freight fraud.",
+    "answer": "FMCSA NCCDB (nccdb.fmcsa.dot.gov), FMCSA Contact Center 1-800-832-5660, FTC, FBI IC3 or state attorney general, DOT OIG hotline."
+   },
+   {
+    "n": 8,
+    "question": "Why can’t a dispatcher move a load from one of their carriers to another?",
+    "answer": "It is brokering: arranging transport by another carrier for compensation requires broker registration and $75,000 security (49 U.S.C. 14916)."
+   },
+   {
+    "n": 9,
+    "question": "What is a walk-away number, and where does it come from?",
+    "answer": "The lowest rate you’ll accept: usually break-even × total miles (Module 7), lower only when the carrier agrees for a strategic reason such as a strong reload."
+   },
+   {
+    "n": 10,
+    "question": "What does “anchor with a reason” mean? Give an example sentence.",
+    "answer": "Open with a number backed by facts. “For 727 miles with a same-day pickup I need $2,000. The lane has been around $2.60 a mile.”"
+   },
+   {
+    "n": 11,
+    "question": "Name three things you can negotiate besides the rate.",
+    "answer": "Detention terms, lumper paid, quick pay, stop pay, pickup window, a backhaul."
+   },
+   {
+    "n": 12,
+    "question": "What must you confirm before asking for the rate confirmation?",
+    "answer": "All-in total, appointments, commodity and weight, accessorials, payment terms, carrier approval, setup."
+   }
+  ]
+ },
+ {
+  "module": "m09",
+  "title": "Module 9 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "Name the eight steps in a load’s life and the document each produces.",
+    "answer": "(Combined answer 1–4) See page 4 (steps) · signed rate con = contract; only people the carrier authorizes sign · tracking deductions, POD deadlines, fines, liability, no TONU · driver info with time zones; rate at carrier’s choice."
+   },
+   {
+    "n": 2,
+    "question": "Why must the rate con be signed before dispatch, and who may sign it?",
+    "answer": "(Combined answer 1–4) See page 4 (steps) · signed rate con = contract; only people the carrier authorizes sign · tracking deductions, POD deadlines, fines, liability, no TONU · driver info with time zones; rate at carrier’s choice."
+   },
+   {
+    "n": 3,
+    "question": "Name three rate con clauses that commonly cost carriers money.",
+    "answer": "(Combined answer 1–4) See page 4 (steps) · signed rate con = contract; only people the carrier authorizes sign · tracking deductions, POD deadlines, fines, liability, no TONU · driver info with time zones; rate at carrier’s choice."
+   },
+   {
+    "n": 4,
+    "question": "What belongs on a dispatch sheet? What might be left off, and who decides?",
+    "answer": "(Combined answer 1–4) See page 4 (steps) · signed rate con = contract; only people the carrier authorizes sign · tracking deductions, POD deadlines, fines, liability, no TONU · driver info with time zones; rate at carrier’s choice."
+   },
+   {
+    "n": 5,
+    "question": "What must a bill of lading show under 49 CFR 373.101?",
+    "answer": "(Combined answer 5–8) Consignor/consignee, origin/destination, packages, description, weight/volume · shipper load and count when the driver couldn’t see or count · any change to the plan, delay, damage, refusal · counts match, nothing short/damaged, signed; for damage: photos, exact note, call broker."
+   },
+   {
+    "n": 6,
+    "question": "What does SLC mean, and when should the driver write it?",
+    "answer": "(Combined answer 5–8) Consignor/consignee, origin/destination, packages, description, weight/volume · shipper load and count when the driver couldn’t see or count · any change to the plan, delay, damage, refusal · counts match, nothing short/damaged, signed; for damage: photos, exact note, call broker."
+   },
+   {
+    "n": 7,
+    "question": "When should you call the broker instead of sending a message?",
+    "answer": "(Combined answer 5–8) Consignor/consignee, origin/destination, packages, description, weight/volume · shipper load and count when the driver couldn’t see or count · any change to the plan, delay, damage, refusal · counts match, nothing short/damaged, signed; for damage: photos, exact note, call broker."
+   },
+   {
+    "n": 8,
+    "question": "What makes a POD “clean”? What do you do if freight is damaged?",
+    "answer": "(Combined answer 5–8) Consignor/consignee, origin/destination, packages, description, weight/volume · shipper load and count when the driver couldn’t see or count · any change to the plan, delay, damage, refusal · counts match, nothing short/damaged, signed; for damage: photos, exact note, call broker."
+   },
+   {
+    "n": 9,
+    "question": "Which documents go with an invoice?",
+    "answer": "(Combined answer 9–12) Invoice, signed rate con, signed BOL/POD, receipts, detention proof · to the factor named in the NOA, so the broker pays the right party · 1 year · 10:00 PM PKT Thursday."
+   },
+   {
+    "n": 10,
+    "question": "If the carrier factors, where does the invoice go, and why?",
+    "answer": "(Combined answer 9–12) Invoice, signed rate con, signed BOL/POD, receipts, detention proof · to the factor named in the NOA, so the broker pays the right party · 1 year · 10:00 PM PKT Thursday."
+   },
+   {
+    "n": 11,
+    "question": "How long must a carrier keep bills of lading under 49 CFR 379?",
+    "answer": "(Combined answer 9–12) Invoice, signed rate con, signed BOL/POD, receipts, detention proof · to the factor named in the NOA, so the broker pays the right party · 1 year · 10:00 PM PKT Thursday."
+   },
+   {
+    "n": 12,
+    "question": "Convert Thursday 1:00 PM Eastern (U.S. summer time) to Pakistan time.",
+    "answer": "(Combined answer 9–12) Invoice, signed rate con, signed BOL/POD, receipts, detention proof · to the factor named in the NOA, so the broker pays the right party · 1 year · 10:00 PM PKT Thursday."
+   }
+  ]
+ },
+ {
+  "module": "m10",
+  "title": "Module 10 check",
+  "items": [
+   {
+    "n": 1,
+    "question": "Define detention, layover, TONU and lumper.",
+    "answer": "Detention: paid waiting after free time. Layover: held overnight or a day. TONU: truck ordered, not used (cancelled after dispatch). Lumper: paid unloading crew."
+   },
+   {
+    "n": 2,
+    "question": "When does the detention clock usually start? Why doesn’t arriving early count?",
+    "answer": "Usually at the appointment time (or arrival, if later). Arriving early is the carrier’s choice, not the facility’s delay."
+   },
+   {
+    "n": 3,
+    "question": "Name three things you need to get detention paid.",
+    "answer": "Terms on the rate con, times proven (tracking, BOL in/out), notice to the broker when required; then invoice with proof."
+   },
+   {
+    "n": 4,
+    "question": "What does 49 U.S.C. 14103 say about loading and unloading help?",
+    "answer": "A shipper or receiver that requires loading/unloading help must provide it or pay for it, and coercing a carrier to load or unload is unlawful."
+   },
+   {
+    "n": 5,
+    "question": "What must happen before a driver pays a lumper?",
+    "answer": "Driver calls you; you confirm with the broker who pays and how; payment method agreed; receipt obtained."
+   },
+   {
+    "n": 6,
+    "question": "Give your first three actions when a truck is running late.",
+    "answer": "Work out an honest ETA with hours, call the broker before the appointment, confirm in writing and ask for a new time."
+   },
+   {
+    "n": 7,
+    "question": "After a breakdown, who decides what happens to the freight, and why can’t your carrier hand it to another truck on its own?",
+    "answer": "The broker (with its customer). Handing the load to another carrier without the broker arranging it is brokering."
+   },
+   {
+    "n": 8,
+    "question": "What evidence protects the carrier in a reefer temperature dispute?",
+    "answer": "Setpoint on the BOL, unit download/temperature record, pulp temperatures, precool proof, times and messages."
+   },
+   {
+    "n": 9,
+    "question": "What is an “accident” under 49 CFR 390.5, and what should you never say after one?",
+    "answer": "A fatality, an injury treated away from the scene, or a vehicle towed for disabling damage. Never admit fault, promise payment or guess."
+   },
+   {
+    "n": 10,
+    "question": "What is the difference between a POD notation and a claim?",
+    "answer": "A notation records what was seen at delivery; a claim is a written demand identifying the shipment, asserting liability and stating an amount (49 CFR 370.3)."
+   },
+   {
+    "n": 11,
+    "question": "Under the Carmack Amendment, what are the minimum periods to file a claim and to sue?",
+    "answer": "At least 9 months to file a claim; at least 2 years to sue after written denial (49 U.S.C. 14706)."
+   },
+   {
+    "n": 12,
+    "question": "Under 49 CFR 370, how quickly must a carrier acknowledge and decide a claim?",
+    "answer": "Acknowledge within 30 days; pay, decline or offer within 120 days, with written status every 60 days if not resolved (49 CFR 370.5, 370.9)."
+   }
+  ]
+ }
+]

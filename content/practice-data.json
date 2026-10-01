@@ -1,0 +1,1023 @@
+{
+ "disclaimer": "All companies, people, loads, rates and documents below are FICTIONAL PRACTICE DATA from the course, except the OMNITECH documents for load #12354 (real, user-supplied) and dated market snapshots (labelled with source and date). Market numbers change weekly; the app must label them as snapshots.",
+ "carrier": {
+  "name": "Blue Line Transport LLC",
+  "mc": "MC-1298456",
+  "usdot": "3847291",
+  "owner": "Mike",
+  "dispatcher": "Jawad (works remotely from Pakistan)",
+  "minimumHistory": "Old minimum $2.40 per total mile (set when diesel ≈ $5.00); updated in Module 7 to $2.70"
+ },
+ "trucks": [
+  {
+   "id": "12",
+   "driver": "Carlos",
+   "equipment": "53 ft dry van, no air-ride",
+   "maxCargoLb": 44500,
+   "home": "Joliet, IL",
+   "preferences": "Southeast, then back to the Midwest",
+   "hazmat": false,
+   "module6Start": "Empty Joliet, IL, Wed 7:30 AM CT, full daily clocks, 40 h left on 70"
+  },
+  {
+   "id": "7",
+   "driver": "Maria",
+   "equipment": "53 ft reefer, FSMA-trained driver",
+   "maxCargoLb": 43000,
+   "home": "Dallas, TX",
+   "preferences": "Texas ↔ Midwest produce and grocery",
+   "hazmat": false
+  },
+  {
+   "id": "3",
+   "driver": "Dwayne",
+   "equipment": "53 ft dry van",
+   "maxCargoLb": 44000,
+   "home": "Atlanta, GA",
+   "preferences": "Southeast regional; home every Friday by 6 PM ET",
+   "hazmat": false
+  }
+ ],
+ "costModelTruck12": {
+  "fixedWeekly": {
+   "truckPayment": 600,
+   "trailerPayment": 200,
+   "insurance": 350,
+   "otherFixed_ELD_phone_boardSeat_permits_accounting": 150,
+   "total": 1300
+  },
+  "milesPerWeek": 2500,
+  "mpg": 6.5,
+  "variablePerMile": {
+   "fuel_at_6.382_diesel": 0.98,
+   "driverPay": 0.6,
+   "repairs": 0.18,
+   "tires": 0.05,
+   "tollsMisc": 0.03,
+   "total": 1.84
+  },
+  "fees": {
+   "dispatchPct": 6,
+   "factoringPct": 3
+  },
+  "operatingCostPerMile": 2.36,
+  "breakEvenPerTotalMile": 2.59,
+  "profitCushionPerMile": 0.1,
+  "targetMinimumPerTotalMile": 2.7,
+  "formulas": {
+   "fixedPerMile": "weeklyFixed / milesPerWeek",
+   "fuelPerMile": "diesel / mpg",
+   "operatingCost": "fixedPerMile + variablePerMile",
+   "breakEven": "operatingCost / (1 - feePct)",
+   "target": "(operatingCost + cushion) / (1 - feePct)"
+  },
+  "sensitivity_breakEven": {
+   "columns_milesPerWeek": [
+    2000,
+    2500,
+    3000
+   ],
+   "rows": {
+    "4.50": [
+     2.42,
+     2.27,
+     2.18
+    ],
+    "5.00": [
+     2.51,
+     2.36,
+     2.27
+    ],
+    "5.50": [
+     2.59,
+     2.45,
+     2.36
+    ],
+    "6.00": [
+     2.67,
+     2.53,
+     2.43
+    ],
+    "6.38": [
+     2.74,
+     2.59,
+     2.5
+    ],
+    "7.00": [
+     2.85,
+     2.7,
+     2.61
+    ]
+   }
+  }
+ },
+ "reeferBreakEvenPractice": {
+  "breakEven": 2.8,
+  "target": 2.95
+ },
+ "marketSnapshots": {
+  "eiaDiesel": {
+   "date": "2026-09-28",
+   "usOnHighwayDiesel": 6.382,
+   "yearAgo": 3.754,
+   "previousWeek": 6.529,
+   "source": "EIA Gasoline and Diesel Fuel Update"
+  },
+  "datAugust2026": {
+   "source": "DAT news release, 15 Sep 2026",
+   "spotLinehaul": {
+    "van": 2.19,
+    "reefer": 2.61,
+    "flatbed": 2.7
+   },
+   "fuelSurcharge": {
+    "van": 0.7,
+    "reefer": 0.77,
+    "flatbed": 0.84
+   },
+   "contractLinehaul": {
+    "van": 2.41,
+    "reefer": 2.65
+   },
+   "note": "Per loaded mile, national averages; all-in ≈ linehaul + surcharge"
+  },
+  "datRateViewFsc": {
+   "formula": "(EIA diesel - 1.25) / mpg",
+   "base": 1.25,
+   "example": "(6.382 - 1.25) / 6.0 = 0.855 per mile"
+  },
+  "atri2025": {
+   "costPerMile": 2.336,
+   "nonFuel": 1.854,
+   "driverWages": 0.818,
+   "driverBenefits": 0.21,
+   "repairMaintenance": 0.215,
+   "tires": 0.05,
+   "source": "ATRI 2026 Operational Costs of Trucking (2025 data)"
+  },
+  "atriDetention": {
+   "stopsWithDetentionPct": 39.3,
+   "reeferPct": 56.2,
+   "spotFleetsPct": 42.5,
+   "hoursLost": "135M+",
+   "costUSD": "15.1B (3.6B direct + 11.5B productivity)",
+   "invoicesPaid": "<50%",
+   "detainedTrucksFasterPct": 14.6,
+   "source": "ATRI Sept 2024 (2023 data)"
+  },
+  "cargoNet2025": {
+   "losses": "~$725M (+60%)",
+   "incidents": 2646,
+   "averageValue": 273990,
+   "source": "Verisk CargoNet 2025"
+  }
+ },
+ "module6Board": {
+  "truck": "12",
+  "loads": [
+   {
+    "id": 1,
+    "age": "0:12",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 40,
+    "origin": "Chicago, IL",
+    "tripMiles": 760,
+    "destination": "Charlotte, NC",
+    "dhD": 0,
+    "broker": "Lakeshore Logistics",
+    "creditScore": 96,
+    "daysToPay": 28,
+    "lengthFt": 53,
+    "weightLb": 42000,
+    "rate": 2050
+   },
+   {
+    "id": 2,
+    "age": "0:25",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 12,
+    "origin": "Bolingbrook, IL",
+    "tripMiles": 715,
+    "destination": "Atlanta, GA",
+    "dhD": 0,
+    "broker": "Peachtree Freight",
+    "creditScore": 92,
+    "daysToPay": 33,
+    "lengthFt": 53,
+    "weightLb": 38500,
+    "rate": 1600
+   },
+   {
+    "id": 3,
+    "age": "0:40",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 0,
+    "origin": "Joliet, IL",
+    "tripMiles": 1370,
+    "destination": "Miami, FL",
+    "dhD": 0,
+    "broker": "Coastline Brokerage",
+    "creditScore": 88,
+    "daysToPay": 35,
+    "lengthFt": 53,
+    "weightLb": 43000,
+    "rate": 3200
+   },
+   {
+    "id": 4,
+    "age": "0:08",
+    "pickupDay": "Wed",
+    "equipment": "R",
+    "fullPartial": "F",
+    "dhO": 45,
+    "origin": "Elgin, IL",
+    "tripMiles": 480,
+    "destination": "Nashville, TN",
+    "dhD": 0,
+    "broker": "Northstar Cold Chain",
+    "creditScore": 95,
+    "daysToPay": 26,
+    "lengthFt": 53,
+    "weightLb": 40000,
+    "rate": 1450
+   },
+   {
+    "id": 5,
+    "age": "1:05",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 25,
+    "origin": "Aurora, IL",
+    "tripMiles": 540,
+    "destination": "Memphis, TN",
+    "dhD": 0,
+    "broker": "Delta Route Logistics",
+    "creditScore": 90,
+    "daysToPay": 31,
+    "lengthFt": 53,
+    "weightLb": 46500,
+    "rate": 1500
+   },
+   {
+    "id": 6,
+    "age": "0:18",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 8,
+    "origin": "Romeoville, IL",
+    "tripMiles": 745,
+    "destination": "Charlotte, NC",
+    "dhD": 0,
+    "broker": "Quickline Transport Brokers",
+    "creditScore": 71,
+    "daysToPay": 58,
+    "lengthFt": 53,
+    "weightLb": 40000,
+    "rate": null
+   },
+   {
+    "id": 7,
+    "age": "0:33",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 35,
+    "origin": "Kankakee, IL",
+    "tripMiles": 1050,
+    "destination": "Jacksonville, FL",
+    "dhD": 0,
+    "broker": "Harbor Point Logistics",
+    "creditScore": 94,
+    "daysToPay": 30,
+    "lengthFt": 53,
+    "weightLb": 36000,
+    "rate": 2700
+   },
+   {
+    "id": 8,
+    "age": "0:15",
+    "pickupDay": "Thu",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 40,
+    "origin": "Gary, IN",
+    "tripMiles": 700,
+    "destination": "Atlanta, GA",
+    "dhD": 0,
+    "broker": "Midwest Freight Partners",
+    "creditScore": 93,
+    "daysToPay": 29,
+    "lengthFt": 53,
+    "weightLb": 41000,
+    "rate": 1950
+   },
+   {
+    "id": 9,
+    "age": "0:50",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "P",
+    "dhO": 20,
+    "origin": "Naperville, IL",
+    "tripMiles": 355,
+    "destination": "Columbus, OH",
+    "dhD": 0,
+    "broker": "Buckeye Shipping Group",
+    "creditScore": 89,
+    "daysToPay": 34,
+    "lengthFt": 20,
+    "weightLb": 12000,
+    "rate": 900
+   },
+   {
+    "id": 10,
+    "age": "4:30",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 0,
+    "origin": "Joliet, IL",
+    "tripMiles": 780,
+    "destination": "Greenville, SC",
+    "dhD": 0,
+    "broker": "Prime Direct Freight LLC",
+    "creditScore": null,
+    "daysToPay": null,
+    "lengthFt": 53,
+    "weightLb": 42000,
+    "rate": 2300
+   },
+   {
+    "id": 11,
+    "age": "0:22",
+    "pickupDay": "Wed",
+    "equipment": "VA",
+    "fullPartial": "F",
+    "dhO": 40,
+    "origin": "Chicago, IL",
+    "tripMiles": 660,
+    "destination": "Birmingham, AL",
+    "dhD": 0,
+    "broker": "Magnolia Freight Co",
+    "creditScore": 91,
+    "daysToPay": 32,
+    "lengthFt": 53,
+    "weightLb": 39000,
+    "rate": 1750
+   },
+   {
+    "id": 12,
+    "age": "0:10",
+    "pickupDay": "Wed",
+    "equipment": "V",
+    "fullPartial": "F",
+    "dhO": 10,
+    "origin": "Plainfield, IL",
+    "tripMiles": 760,
+    "destination": "Charlotte, NC",
+    "dhD": 0,
+    "broker": "Carolina Link Logistics",
+    "creditScore": 97,
+    "daysToPay": 27,
+    "lengthFt": 53,
+    "weightLb": 44000,
+    "rate": 1980
+   }
+  ],
+  "extraFacts": {
+   "12": "Delivery Thu 8:00 AM ET in Charlotte",
+   "10": "Company registered 3 weeks ago, no reviews",
+   "11": "Comments: air-ride required",
+   "1": "Delivery Thu FCFS 8 AM–4 PM ET"
+  },
+  "answers": {
+   "call": [
+    1,
+    7
+   ],
+   "plan": [
+    2,
+    6
+   ],
+   "reject": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "reasons": {
+    "1": "$2,050 ÷ 800 = $2.56 (vs old $2.40 min); strong broker; FCFS delivery",
+    "7": "$2,700 ÷ 1,085 = $2.49; good broker",
+    "2": "$1,600 ÷ 727 = $2.20 → negotiate ≥ $1,745 (old min)",
+    "6": "No rate; CS 71 / DTP 58 slow payer",
+    "3": "$2.34, into weak Miami market",
+    "4": "Reefer required",
+    "5": "46,500 lb over 44,500 max",
+    "8": "Thursday pickup (backup only)",
+    "9": "Partial to Ohio, not Southeast",
+    "10": "Old post, brand-new broker, high rate: fraud red flags",
+    "11": "Air-ride required",
+    "12": "Thu 8 AM ET delivery impossible from Wed pickup ~760 mi"
+   }
+  },
+  "module7Recheck": "At $6.38 diesel break-even is $2.59 and target $2.70: Load 1 $2.56 → counter to $2,160; Load 7 $2.49 → counter $2,930; Load 2 $2.20 → counter (target $1,963); Load 8 $2.64 backup; Load 3 $2.34 pass"
+ },
+ "module7Plans": [
+  {
+   "plan": "A",
+   "name": "Charlotte + Indianapolis",
+   "legs": [
+    {
+     "lane": "Load 1 Chicago → Charlotte",
+     "rate": 2050,
+     "dh": 40,
+     "loaded": 760
+    },
+    {
+     "lane": "Charlotte → Indianapolis",
+     "rate": 1450,
+     "dh": 25,
+     "loaded": 580
+    }
+   ],
+   "revenue": 3500,
+   "totalMiles": 1405,
+   "perTotalMile": 2.49,
+   "days": 3.5,
+   "perDay": 1000,
+   "hoursUsed": 34,
+   "ends": "Indianapolis, Sat",
+   "marginVsBreakEven": -144
+  },
+  {
+   "plan": "B",
+   "name": "Jacksonville + Nashville",
+   "legs": [
+    {
+     "lane": "Load 7 Kankakee → Jacksonville",
+     "rate": 2700,
+     "dh": 35,
+     "loaded": 1050
+    },
+    {
+     "lane": "Jacksonville → Nashville",
+     "rate": 1250,
+     "dh": 40,
+     "loaded": 590
+    }
+   ],
+   "revenue": 3950,
+   "totalMiles": 1715,
+   "perTotalMile": 2.3,
+   "days": 4,
+   "perDay": 990,
+   "hoursUsed": 40,
+   "ends": "Nashville, Sun",
+   "marginVsBreakEven": -498
+  },
+  {
+   "plan": "C",
+   "name": "Atlanta + Columbus",
+   "legs": [
+    {
+     "lane": "Load 2 Bolingbrook → Atlanta (negotiated)",
+     "rate": 1750,
+     "dh": 12,
+     "loaded": 715
+    },
+    {
+     "lane": "Atlanta → Columbus, OH",
+     "rate": 1700,
+     "dh": 20,
+     "loaded": 570
+    }
+   ],
+   "revenue": 3450,
+   "totalMiles": 1317,
+   "perTotalMile": 2.62,
+   "days": 2.5,
+   "perDay": 1380,
+   "hoursUsed": 32,
+   "ends": "Columbus, OH, Fri",
+   "marginVsBreakEven": 35
+  }
+ ],
+ "module8Brokers": [
+  {
+   "id": "A",
+   "name": "Lakeshore Logistics",
+   "load": "Load 1 · $2,050",
+   "facts": "Broker authority active since 2011; BMC-84 $75,000, no cancellation; email domain matches website; office phone matches website and SAFER; CS 96, DTP 28",
+   "answer": "PASS"
+  },
+  {
+   "id": "B",
+   "name": "Prime Direct Freight LLC",
+   "load": "Load 10 · $2,300",
+   "facts": "Authority granted 3 weeks ago; BMC-84 on file; gmail address; calls from a cell; rate ~$300 above similar loads; “book in 5 minutes, email me your packet”",
+   "answer": "STOP"
+  },
+  {
+   "id": "C",
+   "name": "Caller “Dan” from Peachtree Freight",
+   "load": "Load 2 · $1,600",
+   "facts": "Peachtree SAFER fine; Dan emails from peachtree-freight-llc.com (website peachtreefreight.com); phone differs; official office has no Dan",
+   "answer": "STOP (impersonation)"
+  },
+  {
+   "id": "D",
+   "name": "Quickline Transport Brokers",
+   "load": "Load 6 · no rate",
+   "facts": "Authority 6 years; BMC-84 $75,000; contacts match; CS 71, DTP 58; factor approves with limit, no quick pay",
+   "answer": "CAUTION"
+  },
+  {
+   "id": "E",
+   "name": "Midwest Freight Partners",
+   "load": "Load 8 · $1,950",
+   "facts": "SAFER entity type CARRIER only; common carrier authority, 2 power units; no broker authority; offering loads",
+   "answer": "STOP (no broker authority)"
+  },
+  {
+   "id": "F",
+   "name": "Harbor Point Logistics",
+   "load": "Load 7 · $2,700",
+   "facts": "Authority 4 years; L&I shows BMC-84 cancellation effective in 10 days; else fine; CS 90, DTP 30",
+   "answer": "CAUTION"
+  }
+ ],
+ "module8Negotiation": {
+  "load": "Load 2 Bolingbrook → Atlanta, 715 + 12 mi",
+  "laneRangePerLoadedMile": [
+   2.45,
+   2.85
+  ],
+  "laneRangeTotal": [
+   1752,
+   2038
+  ],
+  "target": 1963,
+  "walkAwayWithReload": 1700,
+  "walkAwayNoReload": 1883,
+  "ladder": [
+   [
+    "Broker",
+    1600
+   ],
+   [
+    "You",
+    2000
+   ],
+   [
+    "Broker",
+    1700
+   ],
+   [
+    "You",
+    1800
+   ],
+   [
+    "Broker",
+    1750
+   ],
+   [
+    "Deal",
+    1750
+   ]
+  ]
+ },
+ "module9Load2": {
+  "loadNo": "PF-20931",
+  "broker": "Peachtree Freight (fictional)",
+  "lane": "Bolingbrook, IL → Atlanta, GA",
+  "miles": 715,
+  "dh": 12,
+  "commodity": "Paper products",
+  "pallets": 22,
+  "weightLb": 38500,
+  "pickup": "Wed 14 Oct 2026, 9–11 AM CT, PU# 55812",
+  "delivery": "Thu 15 Oct 2026, 1:00 PM ET, DEL# A-7730",
+  "rate": 1750,
+  "detention": "after 2 h, $50/h",
+  "lumper": "paid by broker",
+  "tracking": "MacroPoint required",
+  "practiceRateConErrors": [
+   [
+    "Carrier MC",
+    "1298465",
+    "1298456"
+   ],
+   [
+    "Equipment",
+    "53' Reefer",
+    "53' dry van"
+   ],
+   [
+    "Delivery date",
+    "Wed 14 Oct",
+    "Thu 15 Oct, 1 PM ET"
+   ],
+   [
+    "Rate",
+    "$1,650",
+    "$1,750"
+   ],
+   [
+    "Detention",
+    "No detention paid",
+    "after 2 h, $50/h"
+   ],
+   [
+    "Lumper",
+    "Carrier responsible",
+    "paid by broker"
+   ]
+  ],
+  "clauseToQuestion": "$250 fine for late delivery",
+  "timeline": [
+   [
+    "Wed 7:55 AM CT",
+    "Rate con signed; dispatch sheet sent"
+   ],
+   [
+    "8:35 AM CT",
+    "Check in at shipper"
+   ],
+   [
+    "10:35 AM CT",
+    "Loaded: BOL photo, seal 4471023, SLC noted"
+   ],
+   [
+    "10:45 AM CT",
+    "Broker update: loaded, ETA Thu 12:00 ET"
+   ],
+   [
+    "2:40 PM CT",
+    "30-min break"
+   ],
+   [
+    "9:30 PM CT",
+    "10-hour break near Manchester, TN (~520 mi)"
+   ],
+   [
+    "Thu 8:30 AM ET",
+    "Resume (~190 mi left)"
+   ],
+   [
+    "12:00 PM ET",
+    "At receiver"
+   ],
+   [
+    "2:10 PM ET",
+    "Empty, POD clean, 22 pallets"
+   ],
+   [
+    "2:40 PM ET",
+    "POD + invoice BL-1024 sent"
+   ]
+  ],
+  "invoice": {
+   "number": "BL-1024",
+   "lines": [
+    [
+     "Line haul, all-in",
+     1750
+    ],
+    [
+     "Detention (none: 70 min on site)",
+     0
+    ],
+    [
+     "Lumper (paid by broker directly)",
+     0
+    ]
+   ],
+   "total": 1750,
+   "terms": "net 30",
+   "quickPay2pct": 1715,
+   "factoring3pct": 1697.5
+  }
+ },
+ "realDocuments12354": {
+  "source": "OMNITECH manual (user-supplied, real)",
+  "rateCon": {
+   "broker": "Ship Express, LLC (MC 347749)",
+   "loadNo": "12354",
+   "miles": 240,
+   "size": "26'",
+   "equipment": "Straight Box Truck",
+   "weight": "2,000 lbs",
+   "flatRate": 700,
+   "pickup": "Green Bay Packaging, Lebanon, OH · Mon 02/20/2023 · 7–8 AM appt",
+   "delivery": "Tracco, Owensboro, KY · Mon 02/20/2023 · 12:00 PM",
+   "clauses": [
+    "Driver MUST accept MacroPoint tracking or $150 deducted",
+    "POD within 72 hours or $150 deduction",
+    "Carrier responsible for shortages, damages and late delivery fees",
+    "Broker not liable to pay Truck Order Not Used",
+    "Confirmation must be signed and returned before dispatch",
+    "Invoices and BOLs to AP email"
+   ]
+  },
+  "bol": {
+   "bolNo": "22722019",
+   "shipper": "Green Bay Packaging Inc., Lebanon, OH",
+   "consignee": "Tracco LLC, Owensboro, KY",
+   "units": 10,
+   "totalWeightLb": 5729,
+   "carrierLine": "blank",
+   "description": "printed corrugated boxes (D RSC – WPA, ECT 44 C flute)"
+  },
+  "pod": {
+   "stamp": "TPKY or Tracco",
+   "dateReceived": "2-20-23",
+   "qtyReceived": 10,
+   "overShortDamaged": "blank (clean)",
+   "receivedBy": "signature",
+   "missing": "driver/customer signature and date/time line blank"
+  },
+  "mismatch": "Rate con 2,000 lb vs BOL 5,729 lb",
+  "images": {
+   "rateCon": "/assets/photos/rc.jpg",
+   "bol": "/assets/photos/bol.jpg",
+   "pod": "/assets/photos/pod.jpg"
+  }
+ },
+ "module10": {
+  "accessorialPracticeValues": {
+   "detention": "2 h free, then $50/h",
+   "layover": "$250/day",
+   "tonu": "$150",
+   "extraStop": "$75",
+   "driverAssist": "$75 (only if agreed)",
+   "lumper": "paid or reimbursed by broker with receipt"
+  },
+  "detentionExercises": {
+   "terms": "2 h free from appointment (or arrival if later), $50/h, full 15-min blocks rounded down; void if driver late",
+   "cases": [
+    {
+     "id": "a",
+     "appt": "8:00 AM",
+     "arrived": "7:40 AM",
+     "out": "12:05 PM",
+     "answer": 100
+    },
+    {
+     "id": "b",
+     "appt": "1:00 PM",
+     "arrived": "12:00 PM",
+     "out": "4:40 PM",
+     "answer": 75
+    },
+    {
+     "id": "c",
+     "appt": "6:00 AM",
+     "arrived": "6:20 AM",
+     "out": "11:30 AM",
+     "answer": 0
+    },
+    {
+     "id": "d",
+     "appt": "FCFS 8 AM–4 PM (clock from arrival)",
+     "arrived": "9:00 AM",
+     "out": "1:30 PM",
+     "answer": 125
+    }
+   ]
+  },
+  "situations": [
+   "Waiting at the shipper (arrived 7:40 for 8:00, free time to 10:00)",
+   "Lumper $185 at receiver, broker pays",
+   "Cancelled at the gate after 95 mi empty, TONU $150",
+   "Reefer breakdown, 3 h repair, unit running at 34°F",
+   "21 of 22 pallets, 1 wet; seal intact, SLC written",
+   "Heavy snow, 2 h driving left; broker asks “can he push?”"
+  ]
+ },
+ "module11Simulation": {
+  "fleetRules": "Vans: break-even $2.59 / target $2.70; reefer: $2.80 / $2.95. Book at/above target; below target ask Mike. No hazmat. Dwayne home Friday 6 PM ET.",
+  "mondayStatus": [
+   {
+    "truck": "12",
+    "status": "Delivered in Joliet today",
+    "available": "Joliet, IL · Tue 7:00 AM CT",
+    "hours": "52 h left on 70"
+   },
+   {
+    "truck": "7",
+    "status": "Delivering in Dallas Tue AM",
+    "available": "Dallas, TX · Tue 10:00 AM CT",
+    "hours": "45 h left"
+   },
+   {
+    "truck": "3",
+    "status": "Home weekend done",
+    "available": "Atlanta, GA · Tue 8:00 AM ET",
+    "hours": "60 h left"
+   }
+  ],
+  "tuesdayBoard": [
+   {
+    "id": "a",
+    "truck": "12",
+    "lane": "Joliet, IL → Nashville, TN",
+    "loaded": 470,
+    "dh": 15,
+    "details": "Dry van · 41,000 lb · Tue 1 PM CT · deliver Wed AM",
+    "rate": 1300,
+    "broker": "Riverbend Logistics · CS 93 · DTP 29",
+    "perTotalMile": 2.68,
+    "decision": "Backup (just under target)"
+   },
+   {
+    "id": "b",
+    "truck": "12",
+    "lane": "Chicago, IL → Atlanta, GA",
+    "loaded": 715,
+    "dh": 40,
+    "details": "Dry van · 39,000 lb · Tue 11 AM CT · deliver Wed 3 PM ET",
+    "rate": 2050,
+    "broker": "Magnolia Freight · CS 95 · DTP 27",
+    "perTotalMile": 2.72,
+    "decision": "BOOK"
+   },
+   {
+    "id": "c",
+    "truck": "7",
+    "lane": "Dallas, TX → Chicago, IL",
+    "loaded": 925,
+    "dh": 20,
+    "details": "Reefer 36°F · produce · 40,000 lb · Tue 2 PM CT · deliver Thu 2 PM CT",
+    "rate": 2850,
+    "broker": "Lone Star Cold Chain · CS 90 · DTP 31",
+    "perTotalMile": 3.02,
+    "decision": "BOOK"
+   },
+   {
+    "id": "d",
+    "truck": "7",
+    "lane": "Dallas, TX → Memphis, TN",
+    "loaded": 450,
+    "dh": 10,
+    "details": "Reefer 34°F · dairy · 38,000 lb · Tue 1 PM CT",
+    "rate": 1250,
+    "broker": "Delta Route Logistics · CS 90 · DTP 31",
+    "perTotalMile": 2.72,
+    "decision": "PASS (under reefer break-even)"
+   },
+   {
+    "id": "e",
+    "truck": "3",
+    "lane": "Atlanta, GA → Charlotte, NC",
+    "loaded": 245,
+    "dh": 20,
+    "details": "Dry van · 30,000 lb · Tue 10 AM ET · deliver Tue 4 PM ET",
+    "rate": 850,
+    "broker": "Peachtree Freight · CS 92 · DTP 33",
+    "perTotalMile": 3.21,
+    "decision": "BOOK"
+   },
+   {
+    "id": "f",
+    "truck": "3",
+    "lane": "Atlanta, GA → Nashville, TN",
+    "loaded": 250,
+    "dh": 15,
+    "details": "Dry van · 35,000 lb · Tue 1 PM ET · deliver Wed 8 AM CT",
+    "rate": 780,
+    "broker": "New broker (3 weeks) · no score",
+    "perTotalMile": 2.94,
+    "decision": "CAUTION (vet first)"
+   }
+  ],
+  "events": [
+   [
+    "Wed",
+    "Carlos 6:30 AM CT: worried about parking near Atlanta receiver",
+    "Role-play C"
+   ],
+   [
+    "Wed",
+    "Truck 3 detained 3 h on Wednesday reload out of Charlotte; broker says no detention",
+    "Role-play F"
+   ],
+   [
+    "Wed",
+    "Maria BOL: 36°F continuous, 20 pallets, seal 88412",
+    "Check vs rate con"
+   ],
+   [
+    "Thu",
+    "Truck 7 behind I-44 closure near Joplin, MO",
+    "Role-play E"
+   ],
+   [
+    "Thu",
+    "“Broker” offers Truck 3 Friday load at $3.40/mi: new MC, gmail, pressure",
+    "Role-play G"
+   ],
+   [
+    "Thu",
+    "Truck 12 next rate con shows $1,950 instead of $2,050, no detention",
+    "Role-play D"
+   ],
+   [
+    "Fri",
+    "PODs; lumper receipt $185 from Truck 7 in Chicago",
+    "Invoices"
+   ],
+   [
+    "Fri",
+    "Dwayne home 6 PM ET; weekend plans",
+    "Handover"
+   ],
+   [
+    "Fri",
+    "Weekly review with Mike",
+    "Role-play H"
+   ]
+  ],
+  "weeklyKpiExample": {
+   "trucks": [
+    {
+     "truck": "12",
+     "loads": 3,
+     "revenue": 4750,
+     "totalMiles": 1810,
+     "loadedMiles": 1640
+    },
+    {
+     "truck": "7",
+     "loads": 2,
+     "revenue": 5900,
+     "totalMiles": 2050,
+     "loadedMiles": 1880
+    },
+    {
+     "truck": "3",
+     "loads": 3,
+     "revenue": 4100,
+     "totalMiles": 1720,
+     "loadedMiles": 1480
+    }
+   ],
+   "detentionBilled": 275,
+   "detentionPaid": 125,
+   "invoicesOpen": "4 · $9,850"
+  },
+  "capstone": {
+   "message": "Mon 5:30 PM PKT (7:30 AM CT): Truck 12 empties in Memphis tomorrow 8 AM CT; Carlos 38 h left; home in Joliet by Saturday night; find a load toward Chicago; Harbor Point wants packet (bond issue); diesel $6.70 — is $2.70 minimum OK?",
+   "loads": [
+    {
+     "id": "L1",
+     "lane": "Memphis, TN → Chicago, IL",
+     "loaded": 530,
+     "dh": 10,
+     "rate": 1550,
+     "details": "Dry van 42,000 lb · Tue 10 AM CT · deliver Wed 8 AM CT",
+     "broker": "CS 94 · DTP 30 · 9 yrs"
+    },
+    {
+     "id": "L2",
+     "lane": "Memphis, TN → Indianapolis, IN",
+     "loaded": 465,
+     "dh": 25,
+     "rate": 1300,
+     "details": "Tue 9 AM CT · deliver Wed 7 AM ET",
+     "broker": "CS 91 · DTP 34"
+    },
+    {
+     "id": "L3",
+     "lane": "West Memphis, AR → Joliet, IL",
+     "loaded": 540,
+     "dh": 12,
+     "rate": 1450,
+     "details": "44,000 lb · Tue 11 AM CT · deliver Wed 10 AM CT",
+     "broker": "CS 88 · DTP 38"
+    }
+   ],
+   "answer": {
+    "fuelPerMile": 1.03,
+    "operatingCost": 2.41,
+    "breakEven": 2.65,
+    "target": 2.76,
+    "L1": 2.87,
+    "L2": 2.65,
+    "L3": 2.63,
+    "decision": "Book L1; hold Harbor Point packet until bond replacement confirmed; suggest $2.76 minimum"
+   }
+  }
+ }
+}

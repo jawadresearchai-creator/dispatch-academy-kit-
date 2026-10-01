@@ -1,0 +1,86 @@
+[
+ {
+  "n": 1,
+  "title": "Introduce yourself",
+  "module": "m00-01",
+  "pageId": "m00-01-p16",
+  "script": "Say this five times, then record yourself on your phone and listen back. Speak slowly and clearly.  \n  \n**“Hi, this is Jawad, dispatcher with Blue Line Transport, MC number 1-2-3-4-5-6. I’m calling about your load from Joliet, Illinois to Charlotte, North Carolina. Is it still available?”**  \n  \nThen change the city pair to: Dallas, TX → Atlanta, GA and Lebanon, OH → Owensboro, KY. (Blue Line Transport is a practice carrier used throughout this course.)"
+ },
+ {
+  "n": 2,
+  "title": "The phonetic alphabet",
+  "module": "m00-01",
+  "pageId": "m00-01-p35",
+  "script": "On calls you will spell MC numbers, emails and load numbers. Learn this table and practise spelling your name, your email, and **“Ship Express, load 12354.”**"
+ },
+ {
+  "n": 3,
+  "title": "The load read-back",
+  "module": "m00-01",
+  "pageId": "m00-01-p35",
+  "script": "After a broker gives you details, read them back: **“So that’s pickup Monday, 7 to 8 AM Eastern, Green Bay Packaging in Lebanon, Ohio; delivery Monday noon Central, Tracco in Owensboro, Kentucky; 10 skids, 2,000 pounds, box truck. Correct?”**"
+ },
+ {
+  "n": 4,
+  "title": "The equipment questions",
+  "module": "m02",
+  "pageId": "m02-p31",
+  "script": "Practise this with a broker who has just said “It’s a dry van load, Joliet to Atlanta.”  \n  \n**“Great. What’s the commodity and the total weight? How many pallets — are they stackable? Is it dock to dock, live load and live unload? Any length restriction, load bars or air-ride needed?”**  \n  \nThen do the same for a reefer (“What’s the setpoint — continuous or cycle? Pre-cool required?”) and a flatbed (“Dimensions? Tarps — what size drop? Chains or straps?”)."
+ },
+ {
+  "n": 5,
+  "title": "The lane briefing",
+  "module": "m03",
+  "pageId": "m03-p27",
+  "script": "You found a load and the carrier approved it. Brief the driver in 20 seconds:  \n  \n**“Carlos, your next load is Dallas, Texas to Atlanta, Georgia, about 780 miles, mostly I-20 east. Pickup is tomorrow at 8 AM Central; delivery Thursday at 7 AM Eastern — remember Atlanta is an hour ahead. I’ll send the full details on WhatsApp.”**  \n  \nThen do the same for Joliet → Charlotte and Laredo → Chicago."
+ },
+ {
+  "n": 6,
+  "title": "Refusing an unsafe request politely",
+  "module": "m04",
+  "pageId": "m04-p23",
+  "script": "Broker: “Can’t your guy just push through tonight?”  \n  \n**“I understand the timing is tight. He’s out of hours at 8 PM Central and needs his 10-hour break, so the realistic delivery is 10 AM tomorrow. I can send you a tracking update when he’s rolling. Would 10 AM work for the receiver?”**  \n  \nCalm, factual, and offering a solution. Practise until it sounds natural."
+ },
+ {
+  "n": 7,
+  "title": "Verifying a COI with the agent",
+  "module": "m05",
+  "pageId": "m05-p19",
+  "script": "Call the phone number on the COI (or the insurer’s official number):  \n  \n**“Hi, this is Jawad, dispatcher for Blue Line Transport, MC 1298456. I’m confirming a certificate of insurance dated September 15, 2026. Can you confirm the auto liability and cargo policies are active, the limits are $1 million and $100,000, and that the 2022 Freightliner, VIN ending 4471, is on the schedule? Also, are there any cargo exclusions for reefer breakdown?”**  \n  \nWrite down the name of the person, the date and the answers."
+ },
+ {
+  "n": 8,
+  "title": "The first 15 seconds",
+  "module": "m06",
+  "pageId": "m06-p09",
+  "script": "**“Hi, this is Jawad with Blue Line Transport, MC 1298456. I’m calling about your load LL-448210, Chicago to Charlotte, picking up Wednesday. Is it still available?”**  \n  \nIf yes: **“Great. What’s the commodity and weight, and what are the pickup and delivery appointments?”** Rate comes after the facts (Module 8)."
+ },
+ {
+  "n": 9,
+  "title": "Pitching a plan",
+  "module": "m07",
+  "pageId": "m07-p17",
+  "script": "**“Mike, I have Bolingbrook to Atlanta, 715 miles, 12 empty, picks up Wednesday at 9, delivers Thursday at 1. The broker offered $1,600. I got them to $1,750, which is $2.41 a mile, under our $2.59 break-even by itself. But Atlanta is strong: I have a Thursday reload to Columbus for $1,700, so the two loads average $2.62, and Carlos is back near home Friday with hours left. Do you want me to book both?”**"
+ },
+ {
+  "n": 10,
+  "title": "The negotiation",
+  "module": "m08",
+  "pageId": "m08-p15",
+  "script": "You: “Hi, this is Jawad with Blue Line Transport, MC 1298456, calling about your Bolingbrook to Atlanta load for Wednesday. Is it still available?” — Broker: “Yes.” — You: “Great. What’s the commodity and weight, and what are the pickup and delivery appointments?” — Broker: “Paper products, 38,500 pounds. Pickup Wednesday 9 to 11, delivery Thursday 1 PM.” — You: “Okay. What are you paying on it?” — Broker: “$1,600.” — You: “For 727 miles with a same-day pickup I need $2,000. This lane has been running around $2.60 a mile.” (Then stop talking.) — Broker: “I can go $1,700.” — You: “Meet me at $1,800 and I’ll book it now.” — Broker: “$1,750 is the best I can do.” — You: “Let me confirm with my carrier. I’ll call you back in five minutes.”"
+ },
+ {
+  "n": 11,
+  "title": "The loaded update call",
+  "module": "m09",
+  "pageId": "m09-p16",
+  "script": "**“Hi, this is Jawad with Blue Line Transport, MC 1298456, updating load PF-20931. We’re loaded as of 10:35 Central: 22 pallets, 38,500 pounds, seal number 4-4-7-1-0-2-3. Tracking is active. ETA Thursday noon Eastern for the 1 PM appointment. I’ll send the BOL now.”**"
+ },
+ {
+  "n": 12,
+  "title": "The late ETA call",
+  "module": "m10",
+  "pageId": "m10-p10",
+  "script": "“Hi, this is Jawad with Blue Line, load PF-20931. Our driver was held by a highway closure on I-24 and will not make the 1 PM appointment. Realistic ETA is 2:50 PM Eastern. Can you ask the receiver for a later slot today? I’ll send the update in writing now.” Structure: load · what happened · honest ETA · request · written follow-up. Always before the appointment time."
+ }
+]

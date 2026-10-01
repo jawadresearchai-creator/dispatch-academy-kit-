@@ -1,0 +1,1152 @@
+[
+ {
+  "term": "Accessorial",
+  "definition": "Extra charge on top of the line-haul rate: detention, layover, lumper, TONU.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Appointment",
+  "definition": "A fixed pickup or delivery time slot. The opposite is FCFS.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Bill of lading (BOL)",
+  "definition": "Shipper’s document listing the freight; receipt and carriage contract, signed at pickup.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Bona fide agent",
+  "definition": "Someone who works within a carrier’s organization under a continuing agreement. A carrier-side dispatcher aims to be this.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Broker",
+  "definition": "Licensed middleman who arranges transport between shippers and carriers for compensation.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Carrier",
+  "definition": "Company with authority that owns or operates trucks and hauls freight for hire.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Check call",
+  "definition": "A status call or text with the driver: location, loaded, ETA.",
+  "module": "m00-01"
+ },
+ {
+  "term": "COI",
+  "definition": "Certificate of insurance: proof the carrier’s insurance is active.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Consignee",
+  "definition": "The receiver of the freight.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Deadhead",
+  "definition": "Empty miles driven without paid freight, e.g. to reach a pickup.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Detention",
+  "definition": "Payment for waiting too long at a shipper or receiver, if the RC allows it.",
+  "module": "m00-01"
+ },
+ {
+  "term": "ELD",
+  "definition": "Electronic logging device: records the driver’s hours of service.",
+  "module": "m00-01"
+ },
+ {
+  "term": "ETA",
+  "definition": "Estimated time of arrival. Always give it with a time zone.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Factoring",
+  "definition": "Selling invoices to a factoring company for fast cash, minus a fee.",
+  "module": "m00-01"
+ },
+ {
+  "term": "FCFS",
+  "definition": "First come, first served: no appointment, but open hours.",
+  "module": "m00-01"
+ },
+ {
+  "term": "FMCSA",
+  "definition": "Federal Motor Carrier Safety Administration, the U.S. trucking regulator.",
+  "module": "m00-01"
+ },
+ {
+  "term": "HOS",
+  "definition": "Hours of service: federal limits on driving and duty time.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Lane",
+  "definition": "An origin–destination route, e.g. Chicago → Atlanta.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Load board",
+  "definition": "Online marketplace of posted loads, e.g. DAT, Truckstop.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Lumper",
+  "definition": "A third party paid to unload freight at a receiver.",
+  "module": "m00-01"
+ },
+ {
+  "term": "MC number",
+  "definition": "FMCSA operating-authority docket number, still widely used in 2026.",
+  "module": "m00-01"
+ },
+ {
+  "term": "NOA",
+  "definition": "Notice of assignment: tells brokers to pay a carrier’s factoring company.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Owner-operator",
+  "definition": "A driver who owns his truck and often his own authority.",
+  "module": "m00-01"
+ },
+ {
+  "term": "POD",
+  "definition": "Proof of delivery: the BOL signed by the receiver.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Rate confirmation (RC)",
+  "definition": "The broker–carrier agreement for one load: rate, stops, terms.",
+  "module": "m00-01"
+ },
+ {
+  "term": "RPM",
+  "definition": "Rate per mile = pay ÷ miles.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Shipper",
+  "definition": "The company sending the freight.",
+  "module": "m00-01"
+ },
+ {
+  "term": "TONU",
+  "definition": "Truck order not used: payment when a booked load is cancelled after the truck is dispatched, if the RC allows it.",
+  "module": "m00-01"
+ },
+ {
+  "term": "USDOT number",
+  "definition": "FMCSA identifier for a company operating commercial vehicles; its safety record is tied to it.",
+  "module": "m00-01"
+ },
+ {
+  "term": "Air-ride",
+  "definition": "Suspension using air bags for a smoother ride (VA, RA).",
+  "module": "m02"
+ },
+ {
+  "term": "Blocking / bracing",
+  "definition": "Wood or other material built around cargo to stop movement.",
+  "module": "m02"
+ },
+ {
+  "term": "Box truck",
+  "definition": "Straight truck with an enclosed cargo box.",
+  "module": "m02"
+ },
+ {
+  "term": "Bridge formula",
+  "definition": "Federal formula limiting weight on axle groups by their spacing.",
+  "module": "m02"
+ },
+ {
+  "term": "Continuous mode",
+  "definition": "Reefer unit runs all the time.",
+  "module": "m02"
+ },
+ {
+  "term": "Cube out",
+  "definition": "Trailer floor or space is full before reaching the weight limit.",
+  "module": "m02"
+ },
+ {
+  "term": "Curtainside",
+  "definition": "Van with sliding side curtains for side loading (VC).",
+  "module": "m02"
+ },
+ {
+  "term": "Cycle / start-stop",
+  "definition": "Reefer unit switches off at setpoint, restarts when needed.",
+  "module": "m02"
+ },
+ {
+  "term": "Deck height",
+  "definition": "Height of a flatbed or step-deck deck above the ground.",
+  "module": "m02"
+ },
+ {
+  "term": "Drop (tarp)",
+  "definition": "How far a tarp hangs down the side: 4′, 6′, 8′.",
+  "module": "m02"
+ },
+ {
+  "term": "Drop-and-hook",
+  "definition": "Leaving one trailer and taking another instead of waiting to load.",
+  "module": "m02"
+ },
+ {
+  "term": "Dunnage",
+  "definition": "Material used to fill gaps or support cargo (wood, airbags).",
+  "module": "m02"
+ },
+ {
+  "term": "E-track",
+  "definition": "Metal rails on van walls for straps and load bars.",
+  "module": "m02"
+ },
+ {
+  "term": "Fifth wheel",
+  "definition": "Coupling plate on the tractor that holds the trailer’s kingpin.",
+  "module": "m02"
+ },
+ {
+  "term": "Floor-loaded",
+  "definition": "Freight loaded loose on the floor, not on pallets.",
+  "module": "m02"
+ },
+ {
+  "term": "GVWR",
+  "definition": "Gross vehicle weight rating: maximum loaded weight of a vehicle.",
+  "module": "m02"
+ },
+ {
+  "term": "Kingpin",
+  "definition": "Pin under the trailer’s nose that locks into the fifth wheel.",
+  "module": "m02"
+ },
+ {
+  "term": "Landing gear",
+  "definition": "Legs that support a dropped trailer.",
+  "module": "m02"
+ },
+ {
+  "term": "Liftgate",
+  "definition": "Powered platform that lowers freight to the ground.",
+  "module": "m02"
+ },
+ {
+  "term": "Load bar",
+  "definition": "Bar wedged across a van to hold freight in place.",
+  "module": "m02"
+ },
+ {
+  "term": "Over-dimension",
+  "definition": "Freight exceeding legal width, height, length or weight.",
+  "module": "m02"
+ },
+ {
+  "term": "Pallet jack",
+  "definition": "Hand tool for moving pallets.",
+  "module": "m02"
+ },
+ {
+  "term": "Payload",
+  "definition": "Cargo weight a truck can legally carry.",
+  "module": "m02"
+ },
+ {
+  "term": "Power only",
+  "definition": "Tractor pulling a trailer it doesn’t own (PO).",
+  "module": "m02"
+ },
+ {
+  "term": "Pre-cool",
+  "definition": "Cooling a reefer trailer before loading, when required.",
+  "module": "m02"
+ },
+ {
+  "term": "Reefer",
+  "definition": "Refrigerated, temperature-controlled trailer or truck.",
+  "module": "m02"
+ },
+ {
+  "term": "Setpoint",
+  "definition": "The temperature the reefer unit is set to hold.",
+  "module": "m02"
+ },
+ {
+  "term": "Step deck",
+  "definition": "Flatbed with an upper and a lower deck (SD).",
+  "module": "m02"
+ },
+ {
+  "term": "Straight truck",
+  "definition": "Truck with cab and cargo body on one frame.",
+  "module": "m02"
+ },
+ {
+  "term": "Tandem",
+  "definition": "Pair of axles. Trailer tandems often slide.",
+  "module": "m02"
+ },
+ {
+  "term": "Tare",
+  "definition": "Empty weight of a vehicle or trailer.",
+  "module": "m02"
+ },
+ {
+  "term": "Tiedown",
+  "definition": "Strap, chain or similar used to secure cargo.",
+  "module": "m02"
+ },
+ {
+  "term": "Weigh out",
+  "definition": "Reaching the weight limit before the space is full.",
+  "module": "m02"
+ },
+ {
+  "term": "WLL",
+  "definition": "Working load limit of a tiedown.",
+  "module": "m02"
+ },
+ {
+  "term": "Backhaul",
+  "definition": "The return direction of a lane, often with fewer or cheaper loads.",
+  "module": "m03"
+ },
+ {
+  "term": "Beltway / loop",
+  "definition": "Interstate that circles a city (even-first-digit 3-digit number).",
+  "module": "m03"
+ },
+ {
+  "term": "Border crossing / port of entry",
+  "definition": "Official crossing point with Mexico or Canada.",
+  "module": "m03"
+ },
+ {
+  "term": "Census region",
+  "definition": "Official U.S. regions: Northeast, Midwest, South, West.",
+  "module": "m03"
+ },
+ {
+  "term": "Corridor",
+  "definition": "A route with large, steady freight volumes.",
+  "module": "m03"
+ },
+ {
+  "term": "CT / ET / MT / PT",
+  "definition": "Central, Eastern, Mountain, Pacific time.",
+  "module": "m03"
+ },
+ {
+  "term": "DAT zone",
+  "definition": "Load-board region code Z0–Z9 used for searches.",
+  "module": "m03"
+ },
+ {
+  "term": "Daylight saving time (DST)",
+  "definition": "U.S. summer time, second Sunday in March to first Sunday in November.",
+  "module": "m03"
+ },
+ {
+  "term": "DH-O / DH-D",
+  "definition": "Deadhead to origin / from destination on a load board.",
+  "module": "m03"
+ },
+ {
+  "term": "Headhaul",
+  "definition": "The direction where freight is plentiful and pays well.",
+  "module": "m03"
+ },
+ {
+  "term": "Home terminal time",
+  "definition": "The time standard the driver’s log must use.",
+  "module": "m03"
+ },
+ {
+  "term": "Hub",
+  "definition": "City or area that generates freight all year.",
+  "module": "m03"
+ },
+ {
+  "term": "Hot market",
+  "definition": "An area where loads outnumber trucks right now.",
+  "module": "m03"
+ },
+ {
+  "term": "I-xx",
+  "definition": "Interstate highway number.",
+  "module": "m03"
+ },
+ {
+  "term": "In-bond",
+  "definition": "Freight still under customs control; specialist handling.",
+  "module": "m03"
+ },
+ {
+  "term": "Lane",
+  "definition": "Origin → destination pair, e.g. Dallas → Atlanta.",
+  "module": "m03"
+ },
+ {
+  "term": "MST",
+  "definition": "Mountain Standard Time; Arizona uses it all year.",
+  "module": "m03"
+ },
+ {
+  "term": "PHFS",
+  "definition": "Primary Highway Freight System (FHWA).",
+  "module": "m03"
+ },
+ {
+  "term": "PKT",
+  "definition": "Pakistan Standard Time, UTC+5, no DST.",
+  "module": "m03"
+ },
+ {
+  "term": "Road miles",
+  "definition": "Actual driving miles, always more than straight-line distance.",
+  "module": "m03"
+ },
+ {
+  "term": "Split state",
+  "definition": "A state with two time zones.",
+  "module": "m03"
+ },
+ {
+  "term": "Spur",
+  "definition": "Short interstate branching off a main route (odd first digit).",
+  "module": "m03"
+ },
+ {
+  "term": "Texas triangle",
+  "definition": "Dallas–Houston–San Antonio/Austin freight region.",
+  "module": "m03"
+ },
+ {
+  "term": "Truck route",
+  "definition": "Road legal and safe for large trucks.",
+  "module": "m03"
+ },
+ {
+  "term": "11-hour limit",
+  "definition": "Maximum driving after 10 consecutive hours off.",
+  "module": "m04"
+ },
+ {
+  "term": "14-hour window",
+  "definition": "Period after coming on duty; no driving after its end.",
+  "module": "m04"
+ },
+ {
+  "term": "30-minute break",
+  "definition": "Required after 8 cumulative hours of driving.",
+  "module": "m04"
+ },
+ {
+  "term": "34-hour restart",
+  "definition": "34+ consecutive hours off duty that resets the 60/70 cycle.",
+  "module": "m04"
+ },
+ {
+  "term": "60/70-hour cycle",
+  "definition": "On-duty limit over 7 or 8 consecutive days.",
+  "module": "m04"
+ },
+ {
+  "term": "Adverse driving conditions",
+  "definition": "Unexpected conditions allowing up to 2 extra hours.",
+  "module": "m04"
+ },
+ {
+  "term": "Coercion",
+  "definition": "Forcing a driver to break safety rules; banned by 49 CFR 390.6.",
+  "module": "m04"
+ },
+ {
+  "term": "Cycle hours",
+  "definition": "On-duty hours left in the 7/8-day period.",
+  "module": "m04"
+ },
+ {
+  "term": "Deadhead",
+  "definition": "Empty miles to reach a pickup; uses the same clocks.",
+  "module": "m04"
+ },
+ {
+  "term": "Drive time left",
+  "definition": "ELD figure: driving hours remaining today.",
+  "module": "m04"
+ },
+ {
+  "term": "ELD",
+  "definition": "Electronic logging device recording duty status.",
+  "module": "m04"
+ },
+ {
+  "term": "FCFS",
+  "definition": "First come, first served: a window instead of a fixed time.",
+  "module": "m04"
+ },
+ {
+  "term": "HOS",
+  "definition": "Hours of service: federal driver work-time rules.",
+  "module": "m04"
+ },
+ {
+  "term": "Home terminal time",
+  "definition": "Time standard used on the driver’s log.",
+  "module": "m04"
+ },
+ {
+  "term": "Live load / unload",
+  "definition": "Driver waits while freight is loaded or unloaded.",
+  "module": "m04"
+ },
+ {
+  "term": "Off duty",
+  "definition": "Not working.",
+  "module": "m04"
+ },
+ {
+  "term": "On duty (not driving)",
+  "definition": "Working but not driving: loading, inspections, waiting.",
+  "module": "m04"
+ },
+ {
+  "term": "Personal conveyance",
+  "definition": "Off-duty personal use of the truck; never to advance a load.",
+  "module": "m04"
+ },
+ {
+  "term": "RODS",
+  "definition": "Record of duty status (the log).",
+  "module": "m04"
+ },
+ {
+  "term": "Short-haul exception",
+  "definition": "150 air miles / 14 h: time records instead of logs.",
+  "module": "m04"
+ },
+ {
+  "term": "Shift left",
+  "definition": "Time remaining in the 14-hour window.",
+  "module": "m04"
+ },
+ {
+  "term": "Sleeper berth",
+  "definition": "Rest in the truck’s sleeping compartment.",
+  "module": "m04"
+ },
+ {
+  "term": "Split sleeper",
+  "definition": "7+ h sleeper + 2+ h rest = the 10-hour rest.",
+  "module": "m04"
+ },
+ {
+  "term": "Team",
+  "definition": "Two drivers taking turns so the truck keeps moving.",
+  "module": "m04"
+ },
+ {
+  "term": "Yard move",
+  "definition": "On-duty movement inside a yard.",
+  "module": "m04"
+ },
+ {
+  "term": "ACORD 25",
+  "definition": "Standard certificate-of-insurance form.",
+  "module": "m05"
+ },
+ {
+  "term": "Authority",
+  "definition": "FMCSA permission to operate for hire (common/contract/broker).",
+  "module": "m05"
+ },
+ {
+  "term": "BIPD",
+  "definition": "Bodily injury and property damage (auto liability) insurance.",
+  "module": "m05"
+ },
+ {
+  "term": "BMC-91 / 91X",
+  "definition": "Insurer’s liability filing with FMCSA.",
+  "module": "m05"
+ },
+ {
+  "term": "BOC-3",
+  "definition": "Filing naming process agents in each state.",
+  "module": "m05"
+ },
+ {
+  "term": "Cargo insurance",
+  "definition": "Covers the freight being hauled.",
+  "module": "m05"
+ },
+ {
+  "term": "Certificate holder",
+  "definition": "Party (e.g. a broker) named on a COI.",
+  "module": "m05"
+ },
+ {
+  "term": "COI",
+  "definition": "Certificate of insurance.",
+  "module": "m05"
+ },
+ {
+  "term": "Dispatch agreement",
+  "definition": "Contract between the carrier and its dispatcher.",
+  "module": "m05"
+ },
+ {
+  "term": "Docket number",
+  "definition": "MC / MX / FF authority number.",
+  "module": "m05"
+ },
+ {
+  "term": "EIN",
+  "definition": "Employer Identification Number (tax ID).",
+  "module": "m05"
+ },
+ {
+  "term": "Factoring",
+  "definition": "Selling invoices to a factor for fast cash.",
+  "module": "m05"
+ },
+ {
+  "term": "L&I",
+  "definition": "FMCSA Licensing & Insurance records.",
+  "module": "m05"
+ },
+ {
+  "term": "Login.gov",
+  "definition": "Federal identity-verification service used by Motus.",
+  "module": "m05"
+ },
+ {
+  "term": "MCS-150",
+  "definition": "Carrier census form; update every 2 years.",
+  "module": "m05"
+ },
+ {
+  "term": "Motus",
+  "definition": "FMCSA’s registration system (2025–26).",
+  "module": "m05"
+ },
+ {
+  "term": "NOA",
+  "definition": "Notice of assignment: pay the factor.",
+  "module": "m05"
+ },
+ {
+  "term": "Non-owned trailer",
+  "definition": "Insurance for trailers the carrier pulls but doesn’t own.",
+  "module": "m05"
+ },
+ {
+  "term": "Out-of-service",
+  "definition": "Order barring a company, driver or vehicle from operating.",
+  "module": "m05"
+ },
+ {
+  "term": "SAFER",
+  "definition": "FMCSA public company snapshot lookup.",
+  "module": "m05"
+ },
+ {
+  "term": "Scheduled autos",
+  "definition": "Policy covers only listed vehicles.",
+  "module": "m05"
+ },
+ {
+  "term": "SMS",
+  "definition": "FMCSA Safety Measurement System.",
+  "module": "m05"
+ },
+ {
+  "term": "USDOT number",
+  "definition": "FMCSA company identifier.",
+  "module": "m05"
+ },
+ {
+  "term": "USDOT suffix",
+  "definition": "Letter after a new USDOT number showing entity type.",
+  "module": "m05"
+ },
+ {
+  "term": "W-9",
+  "definition": "IRS form giving a taxpayer ID to a payer.",
+  "module": "m05"
+ },
+ {
+  "term": "Age",
+  "definition": "Time since a posting was created or refreshed.",
+  "module": "m06"
+ },
+ {
+  "term": "Alarm / alert",
+  "definition": "Notification when new matching loads appear.",
+  "module": "m06"
+ },
+ {
+  "term": "Backhaul",
+  "definition": "Load that brings the truck back toward home or a good market.",
+  "module": "m06"
+ },
+ {
+  "term": "Book now",
+  "definition": "Book online without a call; still produces a rate confirmation.",
+  "module": "m06"
+ },
+ {
+  "term": "Credit score (CS)",
+  "definition": "DAT broker credit rating.",
+  "module": "m06"
+ },
+ {
+  "term": "DH-O / DH-D",
+  "definition": "Deadhead to origin / from destination.",
+  "module": "m06"
+ },
+ {
+  "term": "Days to pay (DTP)",
+  "definition": "Average payment time.",
+  "module": "m06"
+ },
+ {
+  "term": "Factorable",
+  "definition": "Load whose invoice a factor will buy.",
+  "module": "m06"
+ },
+ {
+  "term": "F / P",
+  "definition": "Full or partial load.",
+  "module": "m06"
+ },
+ {
+  "term": "Load board",
+  "definition": "Online marketplace of loads and trucks.",
+  "module": "m06"
+ },
+ {
+  "term": "Post a truck",
+  "definition": "Advertise available capacity.",
+  "module": "m06"
+ },
+ {
+  "term": "Private loads",
+  "definition": "Loads visible only to selected carriers.",
+  "module": "m06"
+ },
+ {
+  "term": "Rate per mile",
+  "definition": "Rate ÷ miles (loaded, or total including deadhead).",
+  "module": "m06"
+ },
+ {
+  "term": "Reference ID",
+  "definition": "The broker’s load number on the board.",
+  "module": "m06"
+ },
+ {
+  "term": "Saved search",
+  "definition": "Stored search criteria for quick refresh.",
+  "module": "m06"
+ },
+ {
+  "term": "Search back",
+  "definition": "Only show loads posted in the last X hours.",
+  "module": "m06"
+ },
+ {
+  "term": "Trip",
+  "definition": "Loaded miles from pickup to delivery.",
+  "module": "m06"
+ },
+ {
+  "term": "TriHaul",
+  "definition": "DAT tool suggesting triangular routes.",
+  "module": "m06"
+ },
+ {
+  "term": "Zone",
+  "definition": "Region code (Z0–Z9) for searches.",
+  "module": "m06"
+ },
+ {
+  "term": "All-in rate",
+  "definition": "One total that includes fuel.",
+  "module": "m07"
+ },
+ {
+  "term": "Break-even",
+  "definition": "Rate per total mile where revenue after fees equals cost.",
+  "module": "m07"
+ },
+ {
+  "term": "Contract rate",
+  "definition": "Rate agreed for months between shipper and carrier.",
+  "module": "m07"
+ },
+ {
+  "term": "Cost per mile",
+  "definition": "All costs ÷ all miles in a period.",
+  "module": "m07"
+ },
+ {
+  "term": "Deduction",
+  "definition": "Money taken off the pay for a broken rule.",
+  "module": "m07"
+ },
+ {
+  "term": "Dispatch fee",
+  "definition": "Dispatcher’s pay, often a % of gross.",
+  "module": "m07"
+ },
+ {
+  "term": "EIA",
+  "definition": "U.S. Energy Information Administration; publishes weekly diesel prices.",
+  "module": "m07"
+ },
+ {
+  "term": "Factoring",
+  "definition": "Selling invoices for fast pay, for a fee (recourse / non-recourse).",
+  "module": "m07"
+ },
+ {
+  "term": "Fixed cost",
+  "definition": "Paid every week regardless of miles.",
+  "module": "m07"
+ },
+ {
+  "term": "Fuel surcharge (FSC)",
+  "definition": "Pay that follows the diesel price.",
+  "module": "m07"
+ },
+ {
+  "term": "Headhaul / backhaul",
+  "definition": "Strong direction / weaker return direction.",
+  "module": "m07"
+ },
+ {
+  "term": "Linehaul",
+  "definition": "Base rate without fuel.",
+  "module": "m07"
+ },
+ {
+  "term": "Load-to-truck ratio",
+  "definition": "Load posts ÷ truck posts, per market and equipment.",
+  "module": "m07"
+ },
+ {
+  "term": "Market Conditions",
+  "definition": "DAT’s hot/cold supply-demand map.",
+  "module": "m07"
+ },
+ {
+  "term": "Operating cost",
+  "definition": "Fixed + variable cost per mile.",
+  "module": "m07"
+ },
+ {
+  "term": "Rate per day",
+  "definition": "Trip revenue ÷ days the truck is committed.",
+  "module": "m07"
+ },
+ {
+  "term": "Rate per total mile",
+  "definition": "All-in rate ÷ (deadhead + loaded).",
+  "module": "m07"
+ },
+ {
+  "term": "RateView",
+  "definition": "DAT’s tool for recent paid lane rates.",
+  "module": "m07"
+ },
+ {
+  "term": "Spot rate",
+  "definition": "One-off price for a single load.",
+  "module": "m07"
+ },
+ {
+  "term": "Target minimum",
+  "definition": "Break-even plus the carrier’s profit cushion.",
+  "module": "m07"
+ },
+ {
+  "term": "Variable cost",
+  "definition": "Grows with each mile.",
+  "module": "m07"
+ },
+ {
+  "term": "Walk-away rate",
+  "definition": "Lowest rate you’d accept: usually break-even.",
+  "module": "m07"
+ },
+ {
+  "term": "BMC-84",
+  "definition": "Broker’s $75,000 surety bond filing.",
+  "module": "m08"
+ },
+ {
+  "term": "BMC-85",
+  "definition": "Broker’s $75,000 trust fund filing.",
+  "module": "m08"
+ },
+ {
+  "term": "BMC-36",
+  "definition": "Notice cancelling a bond or trust.",
+  "module": "m08"
+ },
+ {
+  "term": "Anchor",
+  "definition": "First number that sets the negotiation range.",
+  "module": "m08"
+ },
+ {
+  "term": "Blind load",
+  "definition": "Shipment where the parties’ identities are hidden; can be legitimate, but a red flag if you’re asked to misrepresent yourself.",
+  "module": "m08"
+ },
+ {
+  "term": "Bond claim",
+  "definition": "Carrier’s claim against a broker’s surety or trust for unpaid freight.",
+  "module": "m08"
+ },
+ {
+  "term": "Double brokering",
+  "definition": "Re-selling a load taken as a carrier, without authority or disclosure.",
+  "module": "m08"
+ },
+ {
+  "term": "Fictitious pickup",
+  "definition": "Theft where a fake carrier collects real freight.",
+  "module": "m08"
+ },
+ {
+  "term": "Highway for Carriers",
+  "definition": "Free tool for carriers to verify brokers.",
+  "module": "m08"
+ },
+ {
+  "term": "Identity theft",
+  "definition": "Using another company’s MC/DOT or name.",
+  "module": "m08"
+ },
+ {
+  "term": "Impersonation",
+  "definition": "Posing as a real broker with lookalike contacts.",
+  "module": "m08"
+ },
+ {
+  "term": "L&I",
+  "definition": "FMCSA Licensing & Insurance: authority and filings.",
+  "module": "m08"
+ },
+ {
+  "term": "NCCDB",
+  "definition": "FMCSA’s National Consumer Complaint Database.",
+  "module": "m08"
+ },
+ {
+  "term": "Phishing",
+  "definition": "Fake links or messages that steal logins.",
+  "module": "m08"
+ },
+ {
+  "term": "SAFER",
+  "definition": "FMCSA company snapshot: entity type, status, contacts.",
+  "module": "m08"
+ },
+ {
+  "term": "Target",
+  "definition": "The rate you aim for: target × total miles.",
+  "module": "m08"
+ },
+ {
+  "term": "Walk-away",
+  "definition": "Lowest acceptable rate; usually break-even.",
+  "module": "m08"
+ },
+ {
+  "term": "Unauthorized brokering",
+  "definition": "Arranging carriage without broker registration and security; unlawful.",
+  "module": "m08"
+ },
+ {
+  "term": "BOL",
+  "definition": "Bill of lading: receipt and contract for the shipment.",
+  "module": "m09"
+ },
+ {
+  "term": "Check call",
+  "definition": "Status update from the driver or to the broker.",
+  "module": "m09"
+ },
+ {
+  "term": "Clean POD",
+  "definition": "Signed delivery with no shortage or damage noted.",
+  "module": "m09"
+ },
+ {
+  "term": "Dispatch sheet",
+  "definition": "The driver’s load instructions.",
+  "module": "m09"
+ },
+ {
+  "term": "Drop and hook",
+  "definition": "Swap trailers instead of waiting to load.",
+  "module": "m09"
+ },
+ {
+  "term": "Exception",
+  "definition": "Shortage, overage, damage or refusal noted on the POD.",
+  "module": "m09"
+ },
+ {
+  "term": "FCFS",
+  "definition": "First come, first served: no fixed appointment.",
+  "module": "m09"
+ },
+ {
+  "term": "Invoice packet",
+  "definition": "Invoice + rate con + POD + receipts.",
+  "module": "m09"
+ },
+ {
+  "term": "Live load/unload",
+  "definition": "Driver waits while freight is loaded or unloaded.",
+  "module": "m09"
+ },
+ {
+  "term": "OS&D",
+  "definition": "Over, short and damaged.",
+  "module": "m09"
+ },
+ {
+  "term": "POD",
+  "definition": "Proof of delivery: the signed BOL or delivery receipt.",
+  "module": "m09"
+ },
+ {
+  "term": "PU# / DEL#",
+  "definition": "Pickup or delivery reference numbers.",
+  "module": "m09"
+ },
+ {
+  "term": "Quick pay",
+  "definition": "Broker pays early for a fee.",
+  "module": "m09"
+ },
+ {
+  "term": "Rate con",
+  "definition": "Rate confirmation: the load contract.",
+  "module": "m09"
+ },
+ {
+  "term": "Seal",
+  "definition": "Numbered tag locking the trailer doors.",
+  "module": "m09"
+ },
+ {
+  "term": "SLC",
+  "definition": "Shipper load and count.",
+  "module": "m09"
+ },
+ {
+  "term": "TONU",
+  "definition": "Truck ordered, not used: pay if a load cancels on arrival.",
+  "module": "m09"
+ },
+ {
+  "term": "Tracking",
+  "definition": "Location sharing with the broker (ELD or app).",
+  "module": "m09"
+ },
+ {
+  "term": "Accessorial",
+  "definition": "Extra charge beyond the linehaul.",
+  "module": "m10"
+ },
+ {
+  "term": "Adverse driving conditions",
+  "definition": "HOS exception adding up to 2 h when unexpected conditions arise.",
+  "module": "m10"
+ },
+ {
+  "term": "Carmack Amendment",
+  "definition": "49 U.S.C. 14706: carrier liability for cargo loss or damage.",
+  "module": "m10"
+ },
+ {
+  "term": "Claim",
+  "definition": "Written demand with shipment, liability and amount.",
+  "module": "m10"
+ },
+ {
+  "term": "Detention",
+  "definition": "Paid waiting after free time.",
+  "module": "m10"
+ },
+ {
+  "term": "Driver assist",
+  "definition": "Driver helps load or unload, if agreed and paid.",
+  "module": "m10"
+ },
+ {
+  "term": "Free time",
+  "definition": "Waiting allowed before detention starts (often 2 h).",
+  "module": "m10"
+ },
+ {
+  "term": "Layover",
+  "definition": "Truck held overnight or to the next day.",
+  "module": "m10"
+ },
+ {
+  "term": "Lumper",
+  "definition": "Paid unloading crew at a facility.",
+  "module": "m10"
+ },
+ {
+  "term": "Money code",
+  "definition": "Payment code issued so a driver can pay a fee.",
+  "module": "m10"
+ },
+ {
+  "term": "Notice",
+  "definition": "Message telling the broker free time is ending.",
+  "module": "m10"
+ },
+ {
+  "term": "Offset",
+  "definition": "Broker holding payment against a claim.",
+  "module": "m10"
+ },
+ {
+  "term": "Out of service",
+  "definition": "Vehicle or driver barred from moving until fixed.",
+  "module": "m10"
+ },
+ {
+  "term": "Recovery",
+  "definition": "Moving freight after a breakdown, arranged by the broker.",
+  "module": "m10"
+ },
+ {
+  "term": "Salvage",
+  "definition": "Selling damaged freight to reduce a loss.",
+  "module": "m10"
+ },
+ {
+  "term": "TONU",
+  "definition": "Truck ordered, not used.",
+  "module": "m10"
+ }
+]

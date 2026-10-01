@@ -1,0 +1,172 @@
+{
+ "note": "Hotspot coordinates are in the original image pixel space (x,y from top-left). Scale by displayed width / image width.",
+ "documents": [
+  {
+   "id": "rc12354",
+   "image": "/assets/photos/rc.jpg",
+   "width": 946,
+   "height": 1106,
+   "title": "Rate confirmation · Load #12354 (real, OMNITECH manual)",
+   "hotspots": [
+    {
+     "x": 905,
+     "y": 110,
+     "label": "Sign before dispatch",
+     "text": "“Confirmation must be signed and returned before driver can be dispatched.” No signed rate con, no load.",
+     "module": "m09"
+    },
+    {
+     "x": 52,
+     "y": 298,
+     "label": "Miles 240 (loaded)",
+     "text": "Loaded miles only. Add your deadhead to get rate per total mile.",
+     "module": "m07"
+    },
+    {
+     "x": 860,
+     "y": 332,
+     "label": "Flat rate $700 = all-in",
+     "text": "No separate fuel line; this is the invoice amount. $700 ÷ 240 = $2.92 per loaded mile.",
+     "module": "m07"
+    },
+    {
+     "x": 160,
+     "y": 300,
+     "label": "Weight 2,000 lb",
+     "text": "Compare with the BOL at pickup: BOL says 5,729 lb.",
+     "module": "m08"
+    },
+    {
+     "x": 118,
+     "y": 714,
+     "label": "Tracking: $150 deduction",
+     "text": "Driver must accept MacroPoint tracking or $150 is deducted.",
+     "module": "m09"
+    },
+    {
+     "x": 118,
+     "y": 760,
+     "label": "POD in 72 h or $150",
+     "text": "POD must be emailed/faxed within 72 hours of delivery.",
+     "module": "m09"
+    },
+    {
+     "x": 118,
+     "y": 850,
+     "label": "Liability and no TONU",
+     "text": "Carrier responsible for shortages, damages and late fees; broker not liable for Truck Order Not Used.",
+     "module": "m10"
+    },
+    {
+     "x": 118,
+     "y": 905,
+     "label": "Invoices to AP email",
+     "text": "Send invoices and BOLs to the AP address printed on the rate con.",
+     "module": "m09"
+    },
+    {
+     "x": 905,
+     "y": 945,
+     "label": "Carrier signature",
+     "text": "Only someone the carrier authorizes signs (dispatch agreement).",
+     "module": "m05"
+    }
+   ]
+  },
+  {
+   "id": "bol12354",
+   "image": "/assets/photos/bol.jpg",
+   "width": 948,
+   "height": 1108,
+   "title": "Bill of lading · BOL 22722019 (real)",
+   "hotspots": [
+    {
+     "x": 175,
+     "y": 90,
+     "label": "Shipper",
+     "text": "Green Bay Packaging, Lebanon, OH: matches the rate con pickup.",
+     "module": "m08"
+    },
+    {
+     "x": 155,
+     "y": 185,
+     "label": "Ship to",
+     "text": "Tracco LLC, Owensboro, KY: matches the consignee.",
+     "module": "m08"
+    },
+    {
+     "x": 575,
+     "y": 125,
+     "label": "BOL #",
+     "text": "BOL# 22722019: note it on your records; it becomes the POD reference.",
+     "module": "m09"
+    },
+    {
+     "x": 575,
+     "y": 292,
+     "label": "Carrier line blank",
+     "text": "CARRIER CO: is blank. It should name your carrier; a different carrier or broker name is a stop sign.",
+     "module": "m08"
+    },
+    {
+     "x": 745,
+     "y": 578,
+     "label": "Total weight 5,729 lb",
+     "text": "Rate con said 2,000 lb. Driver waits; you call the broker and get the change in writing.",
+     "module": "m08"
+    }
+   ]
+  },
+  {
+   "id": "pod12354",
+   "image": "/assets/photos/pod.jpg",
+   "width": 946,
+   "height": 1109,
+   "title": "Proof of delivery · signed BOL (real)",
+   "hotspots": [
+    {
+     "x": 912,
+     "y": 137,
+     "label": "Same BOL #",
+     "text": "The BOL becomes the POD when the receiver signs it.",
+     "module": "m09"
+    },
+    {
+     "x": 905,
+     "y": 657,
+     "label": "Total units 10",
+     "text": "Count on the BOL…",
+     "module": "m09"
+    },
+    {
+     "x": 725,
+     "y": 952,
+     "label": "Qty received 10",
+     "text": "…matches the receiver’s stamp.",
+     "module": "m09"
+    },
+    {
+     "x": 790,
+     "y": 995,
+     "label": "Over/Short/Damaged blank",
+     "text": "Blank = clean delivery.",
+     "module": "m09"
+    },
+    {
+     "x": 725,
+     "y": 1042,
+     "label": "Received by",
+     "text": "Signature and date; printed name and time would be better.",
+     "module": "m09"
+    },
+    {
+     "x": 30,
+     "y": 652,
+     "label": "Driver signature blank",
+     "text": "Coach drivers to complete signature and date/time lines.",
+     "module": "m09"
+    }
+   ]
+  }
+ ]
+}
